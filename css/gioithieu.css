@@ -1,0 +1,181 @@
+
+body{
+    font-size: 14px;
+    font-family: 'Quicksand', sans-serif;
+}
+
+.gioithieu-banner-content{
+    margin: 0px auto;
+    position: absolute;
+    top: 10rem;
+    left: 15rem;
+}
+.gioithieu-banner-content p{
+    color: white;
+}
+
+.gioithieu-banner-content .title{
+    text-transform: uppercase;
+}
+
+.gioithieu-banner-content .card-title{
+    font-size: 3rem;
+    font-weight: bold;
+}
+.gioithieu-top{
+    width: 68rem;
+    background-color:white;
+    margin-left: 18%;
+    margin-top: 7rem;
+    margin-bottom: 5rem;
+}
+
+.gioithieu-content-title{
+    width: 544px;
+    margin-left: 0;
+}
+.gioithieu-content-title h2{
+    color: #d29f43;
+    font-size: 2rem;
+
+}
+
+.gioithieu-content-img img{
+    width: 65%;
+    height: 45%;
+    
+    margin-left: 2rem;
+
+}
+
+@media screen and (max-width: 960px){
+    .gioithieu-top{
+        margin-left: 1%;
+    }
+
+    .gioithieu-content-title{
+        width: 36rem;
+    }
+
+    .gioithieu-content-img img{
+        width: 32rem;
+        
+    }
+}
+
+.gioithieu-mid{
+    padding-top: 50px;
+    background-color: #efe8de;
+    height: 400px;
+}
+.gioithieu-mid-title{
+    width: 100%;
+
+}
+.gioithieu-mid-title h2{
+    text-align: center;
+    font-size: 30px;
+    font-weight: bold;
+    color:#d29f43 ;
+}
+
+.gioithieu-mid-slogan{
+    width: 700px;
+    margin: 30px auto;
+    display: flex;
+    justify-content: center;
+    position: absolute;;
+    left: 25%;
+}
+.gioithieu-mid-col{
+    width: 32%;
+    text-align: center;
+}
+.gioithieu-mid-col .gioithieu-mid-col-img img{
+    width: 10.7rem;
+    height: 10.7rem;
+    margin: auto;
+    display: block;
+}
+
+.gioithieu-bottom-sumenh{
+    height: 450px;
+    width: 700px;
+    margin: auto;
+    padding-top: 100px;
+}
+
+.gioithieu-bottom-sumenh .gioithieu-bottom-sumenh-img{
+    width: 50%;
+    height: 250px;
+    float: left;
+}
+.gioithieu-bottom-sumenh-img img{
+    border-radius: 15px 0px 0px 15px;
+}
+.gioithieu-bottom-sumenh .gioithieu-bottom-sumenh-content{
+    width: 50%;
+    float: left;
+    background-color: #d29f43;
+    color: white;
+    height: 250px;
+    border-radius: 0px 15px 15px 0px;
+    padding: 20px;
+}
+.responsive-gioithieu-mid-title{
+    left: 0px;
+
+}
+.responsive-gioithieu-mid-slogan{
+    left: 0px;
+}
+.reponsive-gioithieu-bottom-sumenh{
+    position: relative;
+    left: 0px;
+}
+
+.reponsive-gioithieu-banner-content{
+    top: 7rem;
+    left: 7rem;
+}
+
+.reponsive-card-title{
+    font-size: 2.3rem;
+    font-weight: bold;
+}
+
+.responsive-gioithieu-bottom-sumenh-content{
+    width: 34%;
+    float: left;
+    background-color: #d29f43;
+    color: white;
+    height: 200px;
+    border-radius: 0px 15px 15px 0px;
+    padding: 20px;
+    font-size: 12px;
+}
+
+.responsive-gioithieu-bottom-sumenh-img{
+    width: 33%;
+    height: 200px;
+    float: left;
+    margin-left: 10px;
+}
+
+.responsive-gioithieu-bottom-sumenh{
+    height: 400px;
+    margin-left: 20px;
+}
+.responsive-title{
+    font-size: 0.8rem;
+}
+
+.responsive-gioithieu-mid-col{
+    width: 20%;
+    margin-left: 32px;
+    position: relative;
+    left: -120px;
+}
+.responsive-gioithieu-content-title{
+    width: 478px;
+}

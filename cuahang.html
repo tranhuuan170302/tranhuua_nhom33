@@ -1,0 +1,398 @@
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./css/normalize.css" />
+    <link rel="stylesheet" href="./css/grid.css" />
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
+      integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf"
+      crossorigin="anonymous"
+    />
+
+    <link
+      href="https://fonts.googleapis.com/css2?family=Quicksand&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./css/stylehf.css">
+    <link rel="stylesheet" href="css/cuahang.css">
+
+    <title>Bumba Ta Tua</title>
+  </head>
+  <body>
+    <!-- Header pc -->
+    <div id="header-container" class="hidden-mb">
+      <div id="menu-site">
+        <div class="menu-logo">
+          <a href="#">
+            <img id="logo" src="./images/logo.png" alt="logo" />
+          </a>
+        </div>
+
+        <div class="menu-tab">
+          <ul>
+            <li class=""><a href="./index.html" class="">Trang chủ</a></li>
+
+            <li class=""><a href="./gioithieu.html" class="">Giới thiệu</a></li>
+
+            <li class=""><a href="./nhuongquyen.html" class="">Nhượng quyền</a></li>
+
+            <li class=""><a href="./cuahang.html" class="">Cửa hàng</a></li>
+
+            <li class=""><a href="./sanpham.html" class="">Sản phẩm</a></li>
+
+            <li class=""><a href="./tintuc.html" class="">Tin tức</a></li>
+
+            <li class=""><a href="./tuyen-dung.html" class="">Tuyển dụng</a></li>
+
+            <li class=""><a href="./lien-he.html" class="">Liên hệ</a></li>
+          </ul>
+        </div>
+
+        <div class="menu-lang">
+          <a href="#" target="_blank"><i class="fab fa-facebook-f"></i></a>
+
+          <a href="#" target="_blank"><i class="fab fa-instagram"></i></a>
+
+          <a href="#" target="_blank"><i class="fab fa-youtube"></i></a>
+        </div>
+        
+        <div class="avatar">
+          <a href="#">
+            <img class="icon_image" src="./images/avatar.png" alt="logo-mb" />
+          </a>
+        </div>
+      </div>
+      
+    </div>
+    <!-- end header pc -->
+
+    <!-- Header mobile -->
+    <div class="header-mb-container" id="my-header-mb">
+      <div class="menu-mb">
+        <div id="mySidenav" class="sidenav">
+          <a href="javascript:void(0)" class="closebtn" onclick="closeNav()"
+            >&times;</a
+          >
+                <a href="./index.html">Trang Chủ</a>
+                <a href="./gioithieu.html">Giới Thiệu</a>
+                <a href="./nhuongquyen.html">Nhượng Quyền</a>
+                <a href="./cuahang.html">Cửa Hàng</a>
+                <a href="./sanpham.html">Sản Phẩm</a>
+                <a href="./tintuc.html">Tin Tức</a>
+                <a href="./tuyen-dung.html">Tuyển Dụng</a>
+                <a href="./lien-he.html">Liên Hệ</a>
+        </div>
+
+        <span style="font-size: 30px; cursor: pointer;" onclick="openNav()"
+          >&#9776;</span
+        >
+
+        <div class="logo-mb">
+          <a href="#">
+            <img src="./images/logo.png" alt="logo-mb" />
+          </a>
+        </div>
+      </div>
+    </div>
+    <!-- end header mobile -->
+    <!--Content-->
+    <div id="content">
+        <div class="store-banner">
+            <div class="store-banner-img">
+                <img src="img/banner_cuahang.jpg" alt="">
+            </div>
+            <div class="store-content">
+                <p class="title">Trang Chủ - Cửa Hàng</p>
+                <p class="card-title">Cửa Hàng Bumba</p>
+            </div>
+        </div>
+        <div class="store-body">
+          <div class="store-body-address">
+            <div class="store-body-left">
+              <div class="store-body-left-top">
+                <p>Vui lòng chọn khu vực bạn muốn tìm kiếm chúng tôi sẽ hiển thị danh sách các cửa hàng phù hợp nhất</p>
+                        <select name="name" id="mySelect" class="form-control" action="">
+                            <option value="1">-- Choose TP. Hồ Chí Minh --</option>
+                            <option value="1">TP. Hồ Chí Minh</option>
+                            <option value="2">Hà Nội</option>
+                            <option value="5">Bạc Liêu</option>
+                            <option value="7">Bình Dương</option>
+                            <option value="8">Đồng Nai</option>
+                            <option value="11">Tây Ninh</option>
+                            <option value="12">Vĩnh Long</option>
+                            <option value="16">Hải Phòng</option>
+                            <option value="19">Quảng Ninh</option>
+                            <option value="20">Thái Bình</option>
+                            <option value="21">Thái Nguyên</option>
+                            <option value="26">Đà Nẵng</option>
+                            <option value="37">Phú Yên</option>
+                            <option value="40">Quảng Ngãi</option>
+                            <option value="41">Thanh Hóa</option>
+                            <option value="43">Cà Mau</option>
+                            </select>
+              </div>
+              <div class="store-body-left-bottom " id="style-1">
+                <div class="store-card site-card">
+                  <div class="store-body-left-bottom-img">
+                    <img src="img/cuahang.jpg" alt="">
+                  </div>
+                  <div class="store-body-left-bottom-content">
+                    <h3>Bumba Tân Bình</h3>
+                    <p>57 Nguyễn Thái Bình,</p>
+                    <p>P.4 Q.Tân Bình, TP.Hồ Chí Minh</p>
+                    <p>8:00 - 22:00</p>
+                    <p>0344771283</p>
+                  </div>
+                </div>
+
+                <div class="store-card site-card">
+                  <div class="store-body-left-bottom-img">
+                    <img src="img/cuahang.jpg" alt="">
+                  </div>
+                  <div class="store-body-left-bottom-content">
+                    <h3>Bumba Tân Phú</h3>
+                    <p>300 Tân Quỳ Tân Quý,</p>
+                    <p>P.Kỳ Sơn, Q.Tân Phú</p>
+                    <p>8:00 - 22:00</p>
+                    <p>0344771283</p>
+                  </div>
+                </div>
+
+                <div class="store-card site-card">
+                  <div class="store-body-left-bottom-img">
+                    <img src="img/cuahang.jpg" alt="">
+                  </div>
+                  <div class="store-body-left-bottom-content">
+                    <h3>Bumba Đặng Văn Bi</h3>
+                    <p>78 Đặng Văn Bi,</p>
+                    <p>P. Bình Thọ, Q. Thủ Đức, TP.HCM</p>
+                    <p>8:00 - 22:00</p>
+                    <p>0344771283</p>
+                  </div>
+                </div>
+
+                <div class="store-card site-card">
+                  <div class="store-body-left-bottom-img">
+                    <img src="img/cuahang.jpg" alt="">
+                  </div>
+                  <div class="store-body-left-bottom-content">
+                    <h3>Bumba Vincom Thủ Đức</h3>
+                    <p>208 Võ Văn Ngân,</p>
+                    <p>Bình Thọ, Thủ Đức, TPHCM</p>
+                    <p>8:00 - 22:00</p>
+                    <p>0344771283</p>
+                  </div>
+                </div>
+
+                <div class="store-card site-card">
+                  <div class="store-body-left-bottom-img">
+                    <img src="img/cuahang.jpg" alt="">
+                  </div>
+                  <div class="store-body-left-bottom-content">
+                    <h3>Bumba Parkson</h3>
+                    <p>126 Hùng Vương,</p>
+                    <p>P.4 Q.Tân Bình, TP.Hồ Chí Minh</p>
+                    <p>8:00 - 22:00</p>
+                    <p>0344771283</p>
+                  </div>
+                </div>
+
+                <div class="store-card site-card">
+                  <div class="store-body-left-bottom-img">
+                    <img src="img/cuahang.jpg" alt="">
+                  </div>
+                  <div class="store-body-left-bottom-content">
+                    <h3>Bumba AEON Bình Tân</h3>
+                    <p>1 đường số 17A, Khu phố 11,</p>
+                    <p>P. Bình Trị Đông B, Q. Bình Tân</p>
+                    <p>8:00 - 22:00</p>
+                    <p>0344771283</p>
+                  </div>
+                </div>
+
+                <div class="store-card site-card">
+                  <div class="store-body-left-bottom-img">
+                    <img src="img/cuahang.jpg" alt="">
+                  </div>
+                  <div class="store-body-left-bottom-content">
+                    <h3>Bumba Vạn Hạnh Mall</h3>
+                    <p>11 Sư Vạn Hạnh,</p>
+                    <p>P.10 Q.10, TP.Hồ Chí Minh</p>
+                    <p>8:00 - 22:00</p>
+                    <p>0344771283</p>
+                  </div>
+                </div>
+
+                <div class="store-card site-card">
+                  <div class="store-body-left-bottom-img">
+                    <img src="img/cuahang.jpg" alt="">
+                  </div>
+                  <div class="store-body-left-bottom-content">
+                    <h3>Bumba Cô Bắc</h3>
+                    <p>35 Cô Bắc, P. Cầu Ông Lãnh,</p>
+                    <p>Q.1, TP.Hồ Chí Minh</p>
+                    <p>8:00 - 22:00</p>
+                    <p>0344771283</p>
+                  </div>
+                </div>
+
+                <div class="store-card site-card">
+                  <div class="store-body-left-bottom-img">
+                    <img src="img/cuahang.jpg" alt="">
+                  </div>
+                  <div class="store-body-left-bottom-content">
+                    <h3>Bumba Hoàng Sa</h3>
+                    <p>187C Hoàng Sa,</p>
+                    <p>P.Tân Định Q.1, TP.Hồ Chí Minh</p>
+                    <p>8:00 - 22:00</p>
+                    <p>0344771283</p>
+                  </div>
+                </div>
+
+                
+              </div>
+            </div>
+            <div class="store-body-right">
+              <div class="store-map" id="store-map">
+                <iframe class="iframe" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3918.5882582750087!2d106.7611113141169!3d10.842788260931783!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x317527a5caa43ded%3A0xc72d840d765235be!2zVHJhzIAgc8awzINhIEJ1bWJhIFRodcyJIMSQxrDMgWM!5e0!3m2!1sen!2s!4v1575945265689!5m2!1sen!2s" width="600" height="450" frameborder="0" style="border:0;" allowfullscreen=""></iframe> 
+            </div>
+            </div>
+          </div>
+        </div>
+    </div>
+
+    <!--End content-->
+
+    <!-- Footer responsive -->
+    <div class="footer-site">
+      <div class="row">
+        <div class="col-pc-6 col-mb-12">
+          <div class="footer-card-l">
+            <!-- Footer left-->
+            <div class="footer-logo">
+              <img src="./images/logo-footer.png" alt="foot-logo" />
+            </div>
+
+            <div class="precept">
+              <p>
+                Với châm ngôn tuyệt đối không sử dụng nguyên liệu không rõ nguồn
+                gốc xuất xứ, trà sữa Bumba tự hào mang lại cho khách hàng những
+                sản phẩm, chất lượng tốt nhất
+              </p>
+            </div>
+
+            <div class="footer-social">
+              <a href="#" target="_blank"><i class="fab fa-facebook-f"></i></a>
+              <a href="#" target="_blank"><i class="fab fa-instagram"></i></a>
+              <a href="#" target="_blank"><i class="fab fa-youtube"></i></a>
+            </div>
+          </div>
+        </div>
+        <!--Footer right-->
+        <div class="col-pc-6 col-mb-12">
+          <div class="footer-card-r">
+            <h3>Liên hệ</h3>
+            <p class="fw-600">Công ty CP TM DV Chào Ngày Mới</p>
+            <p>
+              Tầng 3 - Tòa nhà Green Bee - 684/28A Trần Hưng Đạo, Phường 2, Quận
+              5, TP. Hồ Chí Minh
+            </p>
+
+            <p>Email: franchise@trasuabumba.com</p>
+            <p>Hotline: 0975 277 017</p>
+          </div>
+        </div>
+
+        <div class="col-pc-12 col-mb-12">
+          <div class="copy-right">
+            <p>
+              Copyright © 2020 Bumba. Developed by
+              <a href="https://ions.vn" target="_blank">IONS</a>
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- end footer -->
+    <div class="media-button">
+        <a href="#" class="fas fa-phone media-items"></a>
+        <a href="#" class="fas fa-envelope media-items"></a>
+        <a href="#" class="fab fa-facebook-messenger fa-3x mess"></a>
+    </div>
+    <!--SCRIPT-->
+
+    <!--width menu mobile-->
+    <script>
+      function openNav() {
+        document.getElementById("mySidenav").style.width = "100%";
+      }
+
+      function closeNav() {
+        document.getElementById("mySidenav").style.width = "0";
+      }
+    </script>
+
+    <!--Change name to responsive for mobile-->
+    <script>
+      function myFunction() {
+        var x = document.getElementById("my-header-mb");
+        if (x.className === "header-mb-container") {
+          x.className += " responsive";
+        } else {
+          x.className = "header-mb-container";
+        }
+      }
+    </script>
+
+    <!-- sroll logo size-->
+    <script>
+      window.onscroll = function () {
+        if (
+          document.body.scrollTop > 40 ||
+          document.documentElement.scrollTop > 40
+        ) {
+          document.getElementById("menu-site").style.padding = "0.8rem";
+          document.getElementById("logo").style.width = "6rem";
+        } else {
+          document.getElementById("menu-site").style.padding = "1.2rem";
+          document.getElementById("logo").style.width = "9rem";
+        }
+      };
+    </script>
+    <script language="javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
+    <script language="javascript">
+        $(window).resize(function(){
+            var width = $(window).width();
+            if (width <= 768){
+                $('.store-content').addClass('responsive-store-content');
+                $('.store-body-left').addClass('responsive-store-body-left');
+                $('.store-body').addClass('responsive-store-body');
+                $('.store-body-right').addClass('responsive-store-body-right');
+                $('.iframe').addClass('responsive-iframe');
+                $('.store-body-right').addClass('responsive-store-body-right');
+            }
+            else{
+                $('.store-content').removeClass('responsive-store-content');
+                $('.store-body-left').removeClass('responsive-store-body-left');
+                $('.store-body').removeClass('responsive-store-body');
+                $('.store-body-right').removeClass('responsive-store-body-right');
+                $('.iframe').removeClass('responsive-iframe');
+                $('.store-body-right').removeClass('responsive-store-body-right');
+            }
+        });
+        if($(window).width()<600)
+        {
+          $('.store-content').addClass('responsive-store-content');
+                $('.store-body-left').addClass('responsive-store-body-left');
+                $('.store-body').addClass('responsive-store-body');
+                $('.store-body-right').addClass('responsive-store-body-right');
+                $('.iframe').addClass('responsive-iframe');
+                $('.store-body-right').addClass('responsive-store-body-right');
+        }
+        </script>
+  </body>
+</html>

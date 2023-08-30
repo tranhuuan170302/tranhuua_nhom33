@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./css/style_login.css" />
+    <link rel="stylesheet" href="./css/normalize.css" />
+    <link rel="stylesheet" href="./css/grid.css" />
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
+      integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf"
+      crossorigin="anonymous"
+    />
+
+    <link
+      href="https://fonts.googleapis.com/css2?family=Quicksand&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./css/stylehf.css">
+    <link rel="stylesheet" href="css/cuahang.css">
+</head>
+
+<body>
+    
+    <div id="header-container" class="hidden-mb">
+        <div id="menu-site">
+        <div class="menu-logo">
+            <a href="#">
+            <img id="logo" src="./images/logo.png" alt="logo" />
+            </a>
+        </div>
+
+        <div class="menu-tab">
+            <ul>
+            <li class=""><a href="./index.html" class="">Trang chủ</a></li>
+
+            <li class=""><a href="./gioithieu.html" class="">Giới thiệu</a></li>
+
+            <li class=""><a href="./nhuongquyen.html" class="">Nhượng quyền</a></li>
+
+            <li class=""><a href="./cuahang.html" class="">Cửa hàng</a></li>
+
+            <li class=""><a href="./sanpham.html" class="">Sản phẩm</a></li>
+
+            <li class=""><a href="./tintuc.html" class="">Tin tức</a></li>
+
+            <li class=""><a href="./tuyen-dung.html" class="">Tuyển dụng</a></li>
+
+            <li class=""><a href="./lien-he.html" class="">Liên hệ</a></li>
+            </ul>
+        </div>
+
+        <div class="menu-lang">
+            <a href="#" target="_blank"><i class="fab fa-facebook-f"></i></a>
+
+            <a href="#" target="_blank"><i class="fab fa-instagram"></i></a>
+
+            <a href="#" target="_blank"><i class="fab fa-youtube"></i></a>
+        </div>
+        </div>
+    </div>
+    <!-- end header pc -->
+
+    <!-- Header mobile -->
+    <div class="header-mb-container" id="my-header-mb">
+        <div class="menu-mb">
+        <div id="mySidenav" class="sidenav">
+            <a href="javascript:void(0)" class="closebtn" onclick="closeNav()"
+            >&times;</a
+            >
+                <a href="./index.html">Trang Chủ</a>
+                <a href="./gioithieu.html">Giới Thiệu</a>
+                <a href="./nhuongquyen.html">Nhượng Quyền</a>
+                <a href="./cuahang.html">Cửa Hàng</a>
+                <a href="./sanpham.html">Sản Phẩm</a>
+                <a href="./tintuc.html">Tin Tức</a>
+                <a href="./tuyen-dung.html">Tuyển Dụng</a>
+                <a href="./lien-he.html">Liên Hệ</a>
+        </div>
+
+        <span style="font-size: 30px; cursor: pointer;" onclick="openNav()"
+            >&#9776;</span>
+
+        <div class="logo-mb">
+            <a href="#">
+            <img src="./images/logo.png" alt="logo-mb" />
+            </a>
+        </div>
+        </div>
+    </div>
+
+    <div class="container_frame" id="register">
+        <h1>F&B Registration</h1>
+        <form method="post" action="./process_registration.php">
+            <div class="form-group">
+            <label for="fullname">Full Name</label>
+            <input type="text" id="fullname" name="fullname" required>
+            </div>
+            <div class="form-group">
+            <label for="email">Email</label>
+            <input type="email" id="email" name="email" required>
+            </div>
+            <div class="form-group">
+            <label for="password">Password</label>
+            <input type="password" id="password" name="password" required>
+            </div>
+            <div class="form-group">
+            <input type="submit" value="Register" class="btn">
+            </div>
+        </form>
+        <p>Already have an account? <a href="./login.html">Login here</a></p>
+    </div>
+</body>
+</html>

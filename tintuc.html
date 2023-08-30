@@ -1,0 +1,993 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    
+    <link rel="stylesheet" href="./css/normalize.css" />
+    <link rel="stylesheet" href="./css/grid.css" />
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
+      integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="./css/card.css">
+    <link rel="stylesheet" href="./css/tintuc.css">
+    <link
+      href="https://fonts.googleapis.com/css2?family=Quicksand&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./css/stylehf.css" />
+
+    <title>Bumba Ta Tua</title>
+  </head>
+  <body>
+    <!-- Header pc -->
+    <div id="header-container" class="hidden-mb">
+      <div id="menu-site">
+        <div class="menu-logo">
+          <a href="#">
+            <img id="logo" src="./images/logo.png" alt="logo" />
+          </a>
+        </div>
+
+        <div class="menu-tab">
+          <ul>
+            <li class=""><a href="./index.html" class="">Trang chủ</a></li>
+
+            <li class=""><a href="./gioithieu.html" class="">Giới thiệu</a></li>
+
+            <li class=""><a href="./nhuongquyen.html" class="">Nhượng quyền</a></li>
+
+            <li class=""><a href="./cuahang.html" class="">Cửa hàng</a></li>
+
+            <li class=""><a href="./sanpham.html" class="">Sản phẩm</a></li>
+
+            <li class=""><a href="./tintuc.html" class="">Tin tức</a></li>
+
+            <li class=""><a href="./tuyen-dung.html" class="">Tuyển dụng</a></li>
+
+            <li class=""><a href="./lien-he.html" class="">Liên hệ</a></li>
+          </ul>
+        </div>
+
+        <div class="menu-lang">
+          <a href="#" target="_blank"><i class="fab fa-facebook-f"></i></a>
+
+          <a href="#" target="_blank"><i class="fab fa-instagram"></i></a>
+
+          <a href="#" target="_blank"><i class="fab fa-youtube"></i></a>
+        </div>
+
+        <div class="avatar">
+            <a href="#">
+              <img class="icon_image" src="./images/avatar.png" alt="logo-mb" />
+            </a>
+          </div>
+      </div>
+    </div>
+    <!-- end header pc -->
+
+    <!-- Header mobile -->
+    <div class="header-mb-container" id="my-header-mb">
+      <div class="menu-mb">
+        <div id="mySidenav" class="sidenav">
+          <a href="javascript:void(0)" class="closebtn" onclick="closeNav()"
+            >&times;</a
+          >
+                <a href="./index.html">Trang Chủ</a>
+                <a href="./gioithieu.html">Giới Thiệu</a>
+                <a href="./nhuongquyen.html">Nhượng Quyền</a>
+                <a href="./cuahang.html">Cửa Hàng</a>
+                <a href="./sanpham.html">Sản Phẩm</a>
+                <a href="./tintuc.html">Tin Tức</a>
+                <a href="./tuyen-dung.html">Tuyển Dụng</a>
+                <a href="./lien-he.html">Liên Hệ</a>
+        </div>
+
+        <span style="font-size: 30px; cursor: pointer;" onclick="openNav()"
+          >&#9776;</span
+        >
+
+        <div class="logo-mb">
+          <a href="#">
+            <img src="./images/logo.png" alt="logo-mb" />
+          </a>
+        </div>
+      </div>
+    </div>
+    <!-- end header mobile -->
+    <!-- Content -->
+    
+     <div class="main-container">
+      <!-- Banner -->
+      <div class="banner">
+        <div class="banner-img">
+          <div class="banner-card">
+            <div class="card-breadcrumb">
+              <p>
+                <a href="https://trasuabumba.com/" class="upper">Trang chủ</a> -
+                <a class="upper">Tin tức</a>
+              </p>
+            </div>
+
+            <div class="card-title">
+              <h1 class="fw-700 white-cl">Tin tức</h1>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- San pham -->
+      <article class="article">
+        <div class="grid__item--1of1 text-center">
+          <div class="tabs">
+            <input type="radio" name="tabs" id="tab1" checked />
+            <label for="tab1" id="lbl1">
+              <img src="./images/tat-ca-tin-tuc.jpg" alt="all" /><span>All</span>
+            </label>
+
+            <input type="radio" name="tabs" id="tab2" />
+            <label for="tab2">
+              <img src="./images/tin-tuc.jpg" alt="" /><span>Tin tức</span>
+            </label>
+
+            <input type="radio" name="tabs" id="tab3" />
+            <label for="tab3">
+              <img src="./images/khuyen-mai.jpg" alt="" /><span>Khuyến mãi</span>
+            </label>
+
+            <input type="radio" name="tabs" id="tab4" />
+            <label for="tab4">
+              <img src="./images/story.jpg" alt="" /><span>Bumba Story</span>
+            </label>
+
+
+            <!-- Noi dung tag -->
+            <!-- Alll -->
+            <div id="tab__content--1" class="tab__content">
+                <div class="col-pc-6 col-mb-6">
+                    <div class="image-item left1">
+                        <div class="news-card">
+                            <div class="news-thumb">
+                            <a href="#">
+                                <img src="./images/img-tintuc/moitruong.jpg" alt="HÀNH ĐỘNG VÌ THIÊN NHIÊN - NGÀY MÔI TRƯỜNG THẾ GIỚI">
+                            </a>
+                            </div>
+                            <div class="news-block">
+                                <span><small>Tháng 06 05, 2020</small></span>
+                                <h3>HÀNH ĐỘNG VÌ THIÊN NHIÊN - NGÀY MÔI TRƯỜNG THẾ GIỚI</h3>
+                                <p>Mỗi một hành động nhỏ của các bạn như thu gom, xử lý chất thải...</p>
+                            </div>
+                            <div class="site-btn news-btn">
+                                <a href="#"><i class="fas fa-arrow-right"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                   
+                    <div class="image-item ">
+                    <div class="news-card">
+                        <div class="news-thumb">
+                        <a href="#">
+                            <img src="./images/img-tintuc/vitamin.jpg" alt="NẠP VITAMIN SAU MỘT NGÀY DÀI">
+                        </a>
+                        </div>
+                        <div class="news-block">
+                        <span><small>Tháng 05 25, 2020</small></span>
+                        <h3>NẠP VITAMIN SAU MỘT NGÀY DÀI</h3>
+                        <p>Hôm nay làm việc mệt rồi<br>
+                            Chỉ mong đến giờ ta về nhanh nhanh<br>
+                            Sữa chua bồi dưỡng tốt lành!<br>
+                            Cuối tuần tươi trẻ cho đời thêm vui</p>
+                        </div>
+                        <div class="site-btn news-btn">
+                             <a href="#"><i class="fas fa-arrow-right"></i></a>
+                        </div>
+                    </div>
+                    </div>
+
+                    <div class="image-item left1 ">
+                    <div class="news-card">
+                        <div class="news-thumb">
+                        <a href="#">
+                            <img src="./images/img-tintuc/le.jpg" alt="TƯNG BỪNG ĐÓN LỄ CÙNG BUMBA">
+                        </a>
+                        </div>
+                        <div class="news-block">
+                            <span><small>Tháng 04 29, 2020</small></span>
+                            <h3>TƯNG BỪNG ĐÓN LỄ CÙNG BUMBA</h3>
+                            <p>MỪNG ĐẠI LỄ <strong>30/4 và 1/5</strong> [..]</p>
+                        </div>
+                        <div class="site-btn news-btn">
+                            <a href="#"><i class="fas fa-arrow-right"></i></a>
+                        </div>
+                    </div>
+                    </div>
+
+                    <div class="image-item">
+                    <div class=" news-card">
+                        <div class="news-thumb">
+                        <a href="#">
+                            <img src="./images/img-tintuc/covi.jpg" alt="BUMBA&nbsp;MỞ CỬA TRỞ LẠI NHƯNG VẪN PHÒNG DỊCH">
+                        </a>
+                        </div>
+                        <div class="news-block">
+                            <span><small>Tháng 04 24, 2020</small></span>
+                            <h3>BUMBA&nbsp;MỞ CỬA TRỞ LẠI NHƯNG VẪN PHÒNG DỊCH</h3>
+                            <p>Hiện tại<strong> tất cả các cửa hàng của Bumba</strong>&nbsp; đã&nbsp;chính thức hoạt động trở lại sau bao ngày thực hiện giãn cách ly xã hội.</p>
+                        </div>
+                        <div class="site-btn news-btn">
+                            <a href="#"><i class="fas fa-arrow-right"></i></a>
+                        </div>
+                    </div>
+                    </div>
+
+                    <div class="image-item left1">
+                            <div class="news-card">
+                                <div class="news-thumb">
+                                <a href="#">
+                                    <img src="./images/img-tintuc/tnn.jpg" alt="MỪNG TẾT THIẾU NHI&nbsp;">
+                                </a>
+                                </div>
+                                <div class="news-block">
+                                    <span><small>Tháng 06 01, 2020</small></span>
+                                    <h3>MỪNG TẾT THIẾU NHI&nbsp;</h3>
+                                    <p>Mừng ngày Quốc Tế Thiếu Nhi 1/6, <strong>Bumba</strong>&nbsp;giảm ngay <span style="font-size:18px"><strong>30%</strong></span>&nbsp;cho khách hàng đến cửa hàng có dắt theo trẻ em.</p>
+                                </div>
+                                <div class="site-btn news-btn">
+                                    <a href="#"><i class="fas fa-arrow-right"></i></a>
+                                </div>
+                            </div>
+                    </div>
+
+                    <div class="image-item">
+                            <div class=" news-card">
+                                <div class="news-thumb">
+                                <a href="#">
+                                    <img src="./images/img-tintuc/free.jpg" alt="FREE TOPPING - CHO MIỆNG THÊM VUI">
+                                </a>
+                                </div>
+                                <div class="news-block">
+                                <span><small>Tháng 06 01, 2020</small></span>
+                                    <h3>FREE TOPPING - CHO MIỆNG THÊM VUI</h3>
+                                    <p>Cơ hội cực sốc dành cho các tín đồ trà sữa mê nè, thỏa sức uống các món nước yêu thích của nhà <strong>Bum</strong> mà còn được <strong>FREE TOPPING.</strong></p>
+                                </div>
+                                <div class="site-btn news-btn">
+                                    <a href="#"><i class="fas fa-arrow-right"></i></a>
+                                </div>
+                            </div>
+                     </div>
+
+                    <div class="image-item left1">
+                            <div class="news-card">
+                                <div class="news-thumb">
+                                <a href="#">
+                                    <img src="./images/img-tintuc/sale.jpg" style="width: 350px;" alt="SALE KHÔNG CẦN CỚ! CẦN CẬU CƠ">
+                                </a>
+                                </div>
+                                <div class="news-block">
+                                    <span><small>Tháng 03 10, 2020</small></span>
+                                    <h3>SALE KHÔNG CẦN CỚ! CẦN CẬU CƠ</h3>
+                                    <p>Trứng rán cần mỡ&nbsp; &nbsp; Bắp cần bơ&nbsp; &nbsp;Sale không cần cớ... Cần cậu cơ&nbsp;</p>
+                                </div>
+                                <div class="site-btn news-btn">
+                                    <a href="#"><i class="fas fa-arrow-right"></i></a>
+                                </div>
+                            </div>
+                    </div>
+
+                    <div class="image-item">
+                            <div class="news-card">
+                                <div class="news-thumb">
+                                <a href="#">
+                                    <img src="./images/img-tintuc/love.jpg" style="width: 350px;" alt="❤️❤️CHECK IN TÌNH YÊU, NHẬN NGAY TRÀ SỮA❤️❤️">
+                                </a>
+                                </div>
+                                <div class="news-block">
+                                    <span><small>Tháng 02 11, 2020</small></span>
+                                    <h3>❤️❤️CHECK IN TÌNH YÊU, NHẬN NGAY TRÀ SỮA❤️❤️</h3>
+                                    <p>Mùa yêu ngày Valentine’s Day cả nhà Bum đã có kế hoạch chưa nào?</p>
+                                    </div>
+                                <div class="site-btn news-btn">
+                                    <a href="#"><i class="fas fa-arrow-right"></i></a>
+                                </div>
+                            </div>
+                    </div>
+
+                    <div class="image-item left1">
+                            <div class=" news-card">
+                                <div class="news-thumb">
+                                <a href="#">
+                                    <img src="./images/img-tintuc/bumm.jpg" style="height:95%" alt="Chuyện Bum bụng bự ep 3">
+                                </a>
+                                </div>
+                                <div class="news-block">
+                                    <span><small>Tháng 12 15, 2019</small></span>
+                                    <h3>Chuyện Bum bụng bự ep 3</h3>
+                                    <p>Buồn buồn làm mấy câu thơ.... [...]</p>
+                                </div>
+                                <div class="site-btn news-btn">
+                                    <a href="#"><i class="fas fa-arrow-right"></i></a>
+                                </div>
+                            </div>
+                         </div>
+
+                    <div class="image-item ">
+                            <div class=" news-card">
+                                <div class="news-thumb">
+                                <a href="#">
+                                    <img src="./images/img-tintuc/bumm2.jpg" style="height:95%" alt="Chuyện Bum bụng bự ep 2">
+                                </a>
+                                </div>
+                                <div class="news-block">
+                                <span><small>Tháng 12 15, 2019</small></span>
+                                <h3>Chuyện Bum bụng bự ep 2</h3>
+                                <p>Đến bây giờ thì đã học được cách làm sao để Crush mở lời [..]</p>
+                                </div>
+                                <div class="site-btn news-btn">
+                                <a href="#"><i class="fas fa-arrow-right"></i></a>
+                                </div>
+                            </div>
+                    </div>
+
+
+                </div>
+
+                <div class="col-pc-6 col-mb-6">
+                     <div class="image-item left2">
+                        <div class="site-card news-card">
+                            <div class="news-thumb">
+                            <a href="#">
+                                <img src="./images/img-tintuc/hss.jpg" style="width: 350px;" alt="ƯU ĐÃI ĐẶC BIỆT CHO HỌC SINH - SINH VIÊN">
+                            </a>
+                            </div>
+                            <div class="news-block">
+                            <span><small>Tháng 05 12, 2020</small></span>
+                            <h3>ƯU ĐÃI ĐẶC BIỆT CHO HỌC SINH - SINH VIÊN</h3>
+                            <p>Những ngày đầu đi học trở lại, chắc hẳn các bạn có rất nhiều chuyện muốn tâm sự, hàn huyên với bạn bè sau những ngày xa cách vì Corona phải hông nè.</p>
+                            </div>
+                            <div class="site-btn news-btn">
+                            <a href="#"><i class="fas fa-arrow-right"></i></a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="image-item ">
+                        <div class="site-card news-card">
+                            <div class="news-thumb">
+                            <a href="#">
+                                <img src="./images/img-tintuc/mother.jpg" alt="HAPPY MOTHER'S DAY - NGÀY CỦA MẸ&nbsp;❤">
+                            </a>
+                            </div>
+                            <div class="news-block">
+                                <span><small>Tháng 05 11, 2020</small></span>
+                                <h3>HAPPY MOTHER'S DAY - NGÀY CỦA MẸ&nbsp;❤</h3>
+                                <p>Rudyard Kipling đã từng nói: "Chúa không thể có ở khắp mọi nơi, vì thế ngài đã tạo ra những người Mẹ"</p>
+                            </div>
+                            <div class="site-btn news-btn">
+                            <a href="#"><i class="fas fa-arrow-right"></i></a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="image-item left2 ">
+                    <div class="news-card">
+                        <div class="news-thumb">
+                        <a href="#">
+                            <img src="./images/img-tintuc/traidat.jpg" alt="NGÀY TRÁI ĐẤT">
+                        </a>
+                        </div>
+                        <div class="news-block">
+                            <span><small>Tháng 04 22, 2020</small></span>
+                            <h3>NGÀY TRÁI ĐẤT</h3>
+                            <p><strong>Ngày Trái Đất 2020</strong>&nbsp;tựa như hồi chuông cảnh tỉnh con người biết nâng cao nhận thức và giá trị của môi trường tự nhiên Trái Đất, từ đó, trân trọng và bảo vệ những gì mà chúng ta đang có trên hành tinh này.</p>
+                        </div>
+                        <div class="site-btn news-btn">
+                            <a href="#"><i class="fas fa-arrow-right"></i></a>
+                        </div>
+                    </div>
+                    </div>
+
+                    <div class="image-item">
+                        <div class=" news-card">
+                            <div class="news-thumb">
+                                <a href="#">
+                                    <img src="./images/img-tintuc/gioto.jpg" alt="MỪNG LỄ GIỖ TỔ HÙNG VƯƠNG">
+                                </a>
+                            </div>
+                            <div class="news-block">
+                                <span><small>Tháng 04 01, 2020</small></span>
+                                <h3>MỪNG LỄ GIỖ TỔ HÙNG VƯƠNG</h3>
+                                <p>Giỗ tổ Hùng Vương là một ngày lễ đặc biệt ở Việt Nam, đây là dịp để những người con của dân tộc</p>
+                            </div>
+                            <div class="site-btn news-btn">
+                                <a href="#"><i class="fas fa-arrow-right"></i></a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="image-item left2">
+                            <div class=" news-card">
+                                <div class="news-thumb">
+                                <a href="#">
+                                    <img src="./images/img-tintuc/bum.jpg" alt="ĐẾN NGAY BUMBA - GIẢI NHIỆT CƠN NÓNG">
+                                </a>
+                                </div>
+                                <div class="news-block">
+                                <span><small>Tháng 05 19, 2020</small></span>
+                                <h3>ĐẾN NGAY BUMBA - GIẢI NHIỆT CƠN NÓNG</h3>
+                                <p>Người dân Sài Gòn đang phải chống chọi với những ngày nắng nóng đỉnh điểm, có hôm lên tới 38 độ C, khiến ai cũng cảm thấy mệt mỏi và kiệt sức. Để “sống sót” qua mùa hè này...</p>
+                                </div>
+                                <div class="site-btn news-btn">
+                                <a href="#"><i class="fas fa-arrow-right"></i></a>
+                                </div>
+                            </div>
+                    </div>
+
+                    <div class="image-item ">
+                            <div class=" news-card">
+                                <div class="news-thumb">
+                                <a href="#">
+                                    <img src="./images/img-tintuc/duvi.jpg" alt="MENU ĐỦ VỊ, CHO CHIỀU THÊM VUI">
+                                </a>
+                                </div>
+                                <div class="news-block">
+                                    <span><small>Tháng 03 11, 2020</small></span>
+                                    <h3>MENU ĐỦ VỊ, CHO CHIỀU THÊM VUI</h3>
+                                    <p>Các Fan đã thử hết thức uống mới Yogurt Series của Bumba chưa nào?</p>
+                                </div>
+                                <div class="site-btn news-btn">
+                                    <a href="#"><i class="fas fa-arrow-right"></i></a>
+                                </div>
+                            </div>
+                    </div>
+
+                    <div class="image-item left2">
+                            <div class=" news-card">
+                                <div class="news-thumb">
+                                <a href="#">
+                                    <img src="./images/img-tintuc/ud.jpg" style="width:350px;" alt="Hết TẾT nhưng vẫn ƯU ĐÃI hết ý!">
+                                </a>
+                                </div>
+                                <div class="news-block">
+                                    <span><small>Tháng 02 10, 2020</small></span>
+                                    <h3>Hết TẾT nhưng vẫn ƯU ĐÃI hết ý!</h3>
+                                    <p>Đặt hàng online, giảm ngay 40% [..]</p>
+                                </div>
+                                <div class="site-btn news-btn">
+                                    <a href="#"><i class="fas fa-arrow-right"></i></a>
+                                </div>
+                            </div>
+                    </div>
+
+                    <div class="image-item">
+                            <div class=" news-card">
+                                <div class="news-thumb">
+                                <a href="#">
+                                    <img src="./images/img-tintuc/hp.jpg" style="width:250px" alt="HAPPY TIME - TRÀ NGON, SẢNG KHOÁI cùng bumba">
+                                </a>
+                                </div>
+                                <div class="news-block">
+                                <span><small>Tháng 02 03, 2020</small></span>
+                                <h3>HAPPY TIME - TRÀ NGON, SẢNG KHOÁI cùng bumba</h3>
+                                <p>Tin vui cho cả nhà đây [..]</p>
+                                </div>
+                                <div class="site-btn news-btn">
+                                <a href="#"><i class="fas fa-arrow-right"></i></a>
+                                </div>
+                            </div>
+                    </div>
+
+                    <div class="image-item left2">
+                            <div class="news-card">
+                                <div class="news-thumb">
+                                <a href="#">
+                                    <img src="./images/img-tintuc/bumm3.jpg" style="height:95%" alt="Chuyện Bum bụng bự ep 1">
+                                </a>
+                                </div>
+                                <div class="news-block">
+                                    <span><small>Tháng 12 15, 2019</small></span>
+                                    <h3>Chuyện Bum bụng bự ep 1</h3>
+                                    <p>Tại sao anh phải trả lời em? Em hỏi Bum Bụng Bự đi nha.[..]</p>
+                                </div>
+                                <div class="site-btn news-btn">
+                                    <a href="#"><i class="fas fa-arrow-right"></i></a>
+                                </div>
+                            </div>
+                            </div>
+
+                </div>
+
+            </div>
+
+            <!-- Tin Tuc -->
+            <div id="tab__content--2" class="tab__content">
+                <div class="col-pc-6 col-mb-6">
+                    <div class="image-item left1">
+                        <div class="news-card">
+                            <div class="news-thumb">
+                            <a href="#">
+                                <img src="./images/img-tintuc/moitruong.jpg" alt="HÀNH ĐỘNG VÌ THIÊN NHIÊN - NGÀY MÔI TRƯỜNG THẾ GIỚI">
+                            </a>
+                            </div>
+                            <div class="news-block">
+                                <span><small>Tháng 06 05, 2020</small></span>
+                                <h3>HÀNH ĐỘNG VÌ THIÊN NHIÊN - NGÀY MÔI TRƯỜNG THẾ GIỚI</h3>
+                                <p>Mỗi một hành động nhỏ của các bạn như thu gom, xử lý chất thải...</p>
+                            </div>
+                            <div class="site-btn news-btn">
+                                <a href="#"><i class="fas fa-arrow-right"></i></a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="image-item ">
+                    <div class="news-card">
+                        <div class="news-thumb">
+                        <a href="#">
+                            <img src="./images/img-tintuc/vitamin.jpg" alt="NẠP VITAMIN SAU MỘT NGÀY DÀI">
+                        </a>
+                        </div>
+                        <div class="news-block">
+                        <span><small>Tháng 05 25, 2020</small></span>
+                        <h3>NẠP VITAMIN SAU MỘT NGÀY DÀI</h3>
+                        <p>Hôm nay làm việc mệt rồi<br>
+                            Chỉ mong đến giờ ta về nhanh nhanh<br>
+                            Sữa chua bồi dưỡng tốt lành!<br>
+                            Cuối tuần tươi trẻ cho đời thêm vui</p>
+                        </div>
+                        <div class="site-btn news-btn">
+                             <a href="#"><i class="fas fa-arrow-right"></i></a>
+                        </div>
+                    </div>
+                    </div>
+
+                    <div class="image-item left1 ">
+                    <div class="news-card">
+                        <div class="news-thumb">
+                        <a href="#">
+                            <img src="./images/img-tintuc/le.jpg" alt="TƯNG BỪNG ĐÓN LỄ CÙNG BUMBA">
+                        </a>
+                        </div>
+                        <div class="news-block">
+                            <span><small>Tháng 04 29, 2020</small></span>
+                            <h3>TƯNG BỪNG ĐÓN LỄ CÙNG BUMBA</h3>
+                            <p>MỪNG ĐẠI LỄ <strong>30/4 và 1/5</strong> [..]</p>
+                        </div>
+                        <div class="site-btn news-btn">
+                            <a href="#"><i class="fas fa-arrow-right"></i></a>
+                        </div>
+                    </div>
+                    </div>
+
+                    <div class="image-item">
+                    <div class=" news-card">
+                        <div class="news-thumb">
+                        <a href="#">
+                            <img src="./images/img-tintuc/covi.jpg" alt="BUMBA&nbsp;MỞ CỬA TRỞ LẠI NHƯNG VẪN PHÒNG DỊCH">
+                        </a>
+                        </div>
+                        <div class="news-block">
+                            <span><small>Tháng 04 24, 2020</small></span>
+                            <h3>BUMBA&nbsp;MỞ CỬA TRỞ LẠI NHƯNG VẪN PHÒNG DỊCH</h3>
+                            <p>Hiện tại<strong> tất cả các cửa hàng của Bumba</strong>&nbsp; đã&nbsp;chính thức hoạt động trở lại sau bao ngày thực hiện giãn cách ly xã hội.</p>
+                        </div>
+                        <div class="site-btn news-btn">
+                            <a href="#"><i class="fas fa-arrow-right"></i></a>
+                        </div>
+                    </div>
+                    </div>
+                        
+                </div>
+
+                <div class="col-pc-6 col-mb-6">
+                    <div class="image-item left2">
+                        <div class="site-card news-card">
+                            <div class="news-thumb">
+                            <a href="#">
+                                <img src="./images/img-tintuc/hss.jpg" style="width: 350px;" alt="ƯU ĐÃI ĐẶC BIỆT CHO HỌC SINH - SINH VIÊN">
+                            </a>
+                            </div>
+                            <div class="news-block">
+                            <span><small>Tháng 05 12, 2020</small></span>
+                            <h3>ƯU ĐÃI ĐẶC BIỆT CHO HỌC SINH - SINH VIÊN</h3>
+                            <p>Những ngày đầu đi học trở lại, chắc hẳn các bạn có rất nhiều chuyện muốn tâm sự, hàn huyên với bạn bè sau những ngày xa cách vì Corona phải hông nè.</p>
+                            </div>
+                            <div class="site-btn news-btn">
+                            <a href="#"><i class="fas fa-arrow-right"></i></a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="image-item ">
+                        <div class="site-card news-card">
+                            <div class="news-thumb">
+                            <a href="#">
+                                <img src="./images/img-tintuc/mother.jpg" alt="HAPPY MOTHER'S DAY - NGÀY CỦA MẸ&nbsp;❤">
+                            </a>
+                            </div>
+                            <div class="news-block">
+                                <span><small>Tháng 05 11, 2020</small></span>
+                                <h3>HAPPY MOTHER'S DAY - NGÀY CỦA MẸ&nbsp;❤</h3>
+                                <p>Rudyard Kipling đã từng nói: "Chúa không thể có ở khắp mọi nơi, vì thế ngài đã tạo ra những người Mẹ"</p>
+                            </div>
+                            <div class="site-btn news-btn">
+                            <a href="#"><i class="fas fa-arrow-right"></i></a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="image-item left2 ">
+                    <div class="news-card">
+                        <div class="news-thumb">
+                        <a href="#">
+                            <img src="./images/img-tintuc/traidat.jpg" alt="NGÀY TRÁI ĐẤT">
+                        </a>
+                        </div>
+                        <div class="news-block">
+                            <span><small>Tháng 04 22, 2020</small></span>
+                            <h3>NGÀY TRÁI ĐẤT</h3>
+                            <p><strong>Ngày Trái Đất 2020</strong>&nbsp;tựa như hồi chuông cảnh tỉnh con người biết nâng cao nhận thức và giá trị của môi trường tự nhiên Trái Đất, từ đó, trân trọng và bảo vệ những gì mà chúng ta đang có trên hành tinh này.</p>
+                        </div>
+                        <div class="site-btn news-btn">
+                            <a href="#"><i class="fas fa-arrow-right"></i></a>
+                        </div>
+                    </div>
+                    </div>
+
+                    <div class="image-item">
+                        <div class=" news-card">
+                            <div class="news-thumb">
+                                <a href="#">
+                                    <img src="./images/img-tintuc/gioto.jpg" alt="MỪNG LỄ GIỖ TỔ HÙNG VƯƠNG">
+                                </a>
+                            </div>
+                            <div class="news-block">
+                                <span><small>Tháng 04 01, 2020</small></span>
+                                <h3>MỪNG LỄ GIỖ TỔ HÙNG VƯƠNG</h3>
+                                <p>Giỗ tổ Hùng Vương là một ngày lễ đặc biệt ở Việt Nam, đây là dịp để những người con của dân tộc</p>
+                            </div>
+                            <div class="site-btn news-btn">
+                                <a href="#"><i class="fas fa-arrow-right"></i></a>
+                            </div>
+                        </div>
+                        </div>
+
+
+                </div> 
+            </div>
+
+            <!-- Khuyen Mai -->
+            <div id="tab__content--3" class="tab__content">
+                <div class="row">
+                    <div class="col-pc-6 col-mb-6">
+                        <div class="image-item left1">
+                            <div class="news-card">
+                                <div class="news-thumb">
+                                <a href="#">
+                                    <img src="./images/img-tintuc/tnn.jpg" alt="MỪNG TẾT THIẾU NHI&nbsp;">
+                                </a>
+                                </div>
+                                <div class="news-block">
+                                    <span><small>Tháng 06 01, 2020</small></span>
+                                    <h3>MỪNG TẾT THIẾU NHI&nbsp;</h3>
+                                    <p>Mừng ngày Quốc Tế Thiếu Nhi 1/6, <strong>Bumba</strong>&nbsp;giảm ngay <span style="font-size:18px"><strong>30%</strong></span>&nbsp;cho khách hàng đến cửa hàng có dắt theo trẻ em.</p>
+                                </div>
+                                <div class="site-btn news-btn">
+                                    <a href="#"><i class="fas fa-arrow-right"></i></a>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="image-item">
+                            <div class=" news-card">
+                                <div class="news-thumb">
+                                <a href="#">
+                                    <img src="./images/img-tintuc/free.jpg" alt="FREE TOPPING - CHO MIỆNG THÊM VUI">
+                                </a>
+                                </div>
+                                <div class="news-block">
+                                <span><small>Tháng 06 01, 2020</small></span>
+                                    <h3>FREE TOPPING - CHO MIỆNG THÊM VUI</h3>
+                                    <p>Cơ hội cực sốc dành cho các tín đồ trà sữa mê nè, thỏa sức uống các món nước yêu thích của nhà <strong>Bum</strong> mà còn được <strong>FREE TOPPING.</strong></p>
+                                </div>
+                                <div class="site-btn news-btn">
+                                    <a href="#"><i class="fas fa-arrow-right"></i></a>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="image-item left1">
+                            <div class="news-card">
+                                <div class="news-thumb">
+                                <a href="#">
+                                    <img src="./images/img-tintuc/sale.jpg" style="width: 350px;" alt="SALE KHÔNG CẦN CỚ! CẦN CẬU CƠ">
+                                </a>
+                                </div>
+                                <div class="news-block">
+                                    <span><small>Tháng 03 10, 2020</small></span>
+                                    <h3>SALE KHÔNG CẦN CỚ! CẦN CẬU CƠ</h3>
+                                    <p>Trứng rán cần mỡ&nbsp; &nbsp; Bắp cần bơ&nbsp; &nbsp;Sale không cần cớ... Cần cậu cơ&nbsp;</p>
+                                </div>
+                                <div class="site-btn news-btn">
+                                    <a href="#"><i class="fas fa-arrow-right"></i></a>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="image-item">
+                            <div class="news-card">
+                                <div class="news-thumb">
+                                <a href="#">
+                                    <img src="./images/img-tintuc/love.jpg" style="width: 350px;" alt="❤️❤️CHECK IN TÌNH YÊU, NHẬN NGAY TRÀ SỮA❤️❤️">
+                                </a>
+                                </div>
+                                <div class="news-block">
+                                    <span><small>Tháng 02 11, 2020</small></span>
+                                    <h3>❤️❤️CHECK IN TÌNH YÊU, NHẬN NGAY TRÀ SỮA❤️❤️</h3>
+                                    <p>Mùa yêu ngày Valentine’s Day cả nhà Bum đã có kế hoạch chưa nào?</p>
+                                    </div>
+                                <div class="site-btn news-btn">
+                                    <a href="#"><i class="fas fa-arrow-right"></i></a>
+                                </div>
+                            </div>
+                            </div>
+
+                    </div>
+
+                    <div class="col-pc-6 col-mb-6">
+                        <div class="image-item left2">
+                            <div class=" news-card">
+                                <div class="news-thumb">
+                                <a href="#">
+                                    <img src="./images/img-tintuc/bum.jpg" alt="ĐẾN NGAY BUMBA - GIẢI NHIỆT CƠN NÓNG">
+                                </a>
+                                </div>
+                                <div class="news-block">
+                                <span><small>Tháng 05 19, 2020</small></span>
+                                <h3>ĐẾN NGAY BUMBA - GIẢI NHIỆT CƠN NÓNG</h3>
+                                <p>Người dân Sài Gòn đang phải chống chọi với những ngày nắng nóng đỉnh điểm, có hôm lên tới 38 độ C, khiến ai cũng cảm thấy mệt mỏi và kiệt sức. Để “sống sót” qua mùa hè này...</p>
+                                </div>
+                                <div class="site-btn news-btn">
+                                <a href="#"><i class="fas fa-arrow-right"></i></a>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="image-item ">
+                            <div class=" news-card">
+                                <div class="news-thumb">
+                                <a href="#">
+                                    <img src="./images/img-tintuc/duvi.jpg" alt="MENU ĐỦ VỊ, CHO CHIỀU THÊM VUI">
+                                </a>
+                                </div>
+                                <div class="news-block">
+                                    <span><small>Tháng 03 11, 2020</small></span>
+                                    <h3>MENU ĐỦ VỊ, CHO CHIỀU THÊM VUI</h3>
+                                    <p>Các Fan đã thử hết thức uống mới Yogurt Series của Bumba chưa nào?</p>
+                                </div>
+                                <div class="site-btn news-btn">
+                                    <a href="#"><i class="fas fa-arrow-right"></i></a>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="image-item left2">
+                            <div class=" news-card">
+                                <div class="news-thumb">
+                                <a href="#">
+                                    <img src="./images/img-tintuc/ud.jpg" style="width:350px;" alt="Hết TẾT nhưng vẫn ƯU ĐÃI hết ý!">
+                                </a>
+                                </div>
+                                <div class="news-block">
+                                    <span><small>Tháng 02 10, 2020</small></span>
+                                    <h3>Hết TẾT nhưng vẫn ƯU ĐÃI hết ý!</h3>
+                                    <p>Đặt hàng online, giảm ngay 40% [..]</p>
+                                </div>
+                                <div class="site-btn news-btn">
+                                    <a href="#"><i class="fas fa-arrow-right"></i></a>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="image-item">
+                            <div class=" news-card">
+                                <div class="news-thumb">
+                                <a href="#">
+                                    <img src="./images/img-tintuc/hp.jpg" style="width:250px" alt="HAPPY TIME - TRÀ NGON, SẢNG KHOÁI cùng bumba">
+                                </a>
+                                </div>
+                                <div class="news-block">
+                                <span><small>Tháng 02 03, 2020</small></span>
+                                <h3>HAPPY TIME - TRÀ NGON, SẢNG KHOÁI cùng bumba</h3>
+                                <p>Tin vui cho cả nhà đây [..]</p>
+                                </div>
+                                <div class="site-btn news-btn">
+                                <a href="#"><i class="fas fa-arrow-right"></i></a>
+                                </div>
+                            </div>
+                            </div>
+
+                    </div>
+                </div>
+            </div>
+
+            <!--Bumba story-->
+            <div id="tab__content--4" class="tab__content">
+                <div class="row">
+                    <div class="col-pc-6 col-mb-6">
+                        <div class="image-item left1">
+                            <div class=" news-card">
+                                <div class="news-thumb">
+                                <a href="#">
+                                    <img src="./images/img-tintuc/bumm.jpg" style="height:95%" alt="Chuyện Bum bụng bự ep 3">
+                                </a>
+                                </div>
+                                <div class="news-block">
+                                    <span><small>Tháng 12 15, 2019</small></span>
+                                    <h3>Chuyện Bum bụng bự ep 3</h3>
+                                    <p>Buồn buồn làm mấy câu thơ.... [...]</p>
+                                </div>
+                                <div class="site-btn news-btn">
+                                    <a href="#"><i class="fas fa-arrow-right"></i></a>
+                                </div>
+                            </div>
+                         </div>
+
+                         <div class="image-item ">
+                            <div class=" news-card">
+                                <div class="news-thumb">
+                                <a href="#">
+                                    <img src="./images/img-tintuc/bumm2.jpg" style="height:95%" alt="Chuyện Bum bụng bự ep 2">
+                                </a>
+                                </div>
+                                <div class="news-block">
+                                <span><small>Tháng 12 15, 2019</small></span>
+                                <h3>Chuyện Bum bụng bự ep 2</h3>
+                                <p>Đến bây giờ thì đã học được cách làm sao để Crush mở lời [..]</p>
+                                </div>
+                                <div class="site-btn news-btn">
+                                <a href="#"><i class="fas fa-arrow-right"></i></a>
+                                </div>
+                            </div>
+                            </div>
+
+                        
+
+                    </div>
+
+                    <div class="col-pc-6 col-mb-6">
+                        <div class="image-item left2">
+                            <div class="news-card">
+                                <div class="news-thumb">
+                                <a href="#">
+                                    <img src="./images/img-tintuc/bumm3.jpg" style="height:95%" alt="Chuyện Bum bụng bự ep 1">
+                                </a>
+                                </div>
+                                <div class="news-block">
+                                    <span><small>Tháng 12 15, 2019</small></span>
+                                    <h3>Chuyện Bum bụng bự ep 1</h3>
+                                    <p>Tại sao anh phải trả lời em? Em hỏi Bum Bụng Bự đi nha.[..]</p>
+                                </div>
+                                <div class="site-btn news-btn">
+                                    <a href="#"><i class="fas fa-arrow-right"></i></a>
+                                </div>
+                            </div>
+                            </div>
+
+                    </div>
+                </div>
+            </div>
+
+          </div>
+        </div>
+      </article>
+    </div>
+
+    <!-- end content-->
+
+    <!-- Footer responsive -->
+    <div class="footer-site">
+      <div class="row">
+        <div class="col-pc-6 col-mb-12">
+          <div class="footer-card-l">
+            <!-- Footer left-->
+            <div class="footer-logo">
+              <img src="./images/logo-footer.png" alt="foot-logo" />
+            </div>
+
+            <div class="precept">
+              <p>
+                Với châm ngôn tuyệt đối không sử dụng nguyên liệu không rõ nguồn
+                gốc xuất xứ, trà sữa Bumba tự hào mang lại cho khách hàng những
+                sản phẩm, chất lượng tốt nhất
+              </p>
+            </div>
+
+            <div class="footer-social">
+              <a href="#" target="_blank"><i class="fab fa-facebook-f"></i></a>
+              <a href="#" target="_blank"><i class="fab fa-instagram"></i></a>
+              <a href="#" target="_blank"><i class="fab fa-youtube"></i></a>
+            </div>
+          </div>
+        </div>
+        <!--Footer right-->
+        <div class="col-pc-6 col-mb-12">
+          <div class="footer-card-r">
+            <h3>Liên hệ</h3>
+            <p class="fw-600">Công ty CP TM DV Chào Ngày Mới</p>
+            <p>
+              Tầng 3 - Tòa nhà Green Bee - 684/28A Trần Hưng Đạo, Phường 2, Quận
+              5, TP. Hồ Chí Minh
+            </p>
+
+            <p>Email: franchise@trasuabumba.com</p>
+            <p>Hotline: 0975 277 017</p>
+          </div>
+        </div>
+
+        <div class="col-pc-12 col-mb-12">
+          <div class="copy-right">
+            <p>
+              Copyright © 2020 Bumba. Developed by
+              <a href="https://ions.vn" target="_blank">IONS</a>
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- end footer -->
+
+      <!-- Media button -->
+    <div class="media-button">
+        <a href="#" class="fas fa-phone media-items"></a>
+        <a href="#" class="fas fa-envelope media-items"></a>
+        <a href="#" class="fab fa-facebook-messenger fa-3x mess"></a>
+    </div>
+
+    <!-- end media button -->
+
+    <!--SCRIPT-->
+
+    <!--width menu mobile-->
+    <script>
+      function openNav() {
+        document.getElementById("mySidenav").style.width = "100%";
+      }
+
+      function closeNav() {
+        document.getElementById("mySidenav").style.width = "0";
+      }
+    </script>
+
+    <!--Change name to responsive for mobile-->
+    <script>
+      function myFunction() {
+        var x = document.getElementById("my-header-mb");
+        if (x.className === "header-mb-container") {
+          x.className += " responsive";
+        } else {
+          x.className = "header-mb-container";
+        }
+      }
+    </script>
+
+    <!-- sroll logo size-->
+    <script>
+      window.onscroll = function () {
+        if (
+          document.body.scrollTop > 10 ||
+          document.documentElement.scrollTop > 10
+        ) {
+          document.getElementById("menu-site").style.padding = "0.8rem";
+          document.getElementById("logo").style.width = "6rem";
+        } else {
+          document.getElementById("menu-site").style.padding = "1.2rem";
+          document.getElementById("logo").style.width = "9rem";
+        }
+      };
+    </script>
+    
+  </body>
+</html>

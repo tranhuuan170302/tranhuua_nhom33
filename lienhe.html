@@ -1,0 +1,420 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/secondary_style.css">
+    <link rel="stylesheet" href="css/third_style.css">
+    <link rel="stylesheet" href="./css/normalize.css" />
+    <link rel="stylesheet" href="./css/grid.css" />
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
+        integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous" />
+
+    <link href="https://fonts.googleapis.com/css2?family=Quicksand&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="./css/stylehf.css" />
+    <title>Liên hệ</title>
+</head>
+
+<body>
+    <!-- Header pc -->
+    <div id="header-container" class="hidden-mb">
+        <div id="menu-site">
+            <div class="menu-logo">
+                <a href="#">
+                    <img id="logo" src="./images/logo.png" alt="logo" />
+                </a>
+            </div>
+
+            <div class="menu-tab">
+                <ul>
+                    <li class=""><a href="./index.html" class="">Trang chủ</a></li>
+
+                    <li class=""><a href="./gioithieu.html" class="">Giới thiệu</a></li>
+
+                    <li class=""><a href="./nhuongquyen.html" class="">Nhượng quyền</a></li>
+
+                    <li class=""><a href="./cuahang.html" class="">Cửa hàng</a></li>
+
+                    <li class=""><a href="./sanpham.html" class="">Sản phẩm</a></li>
+
+                    <li class=""><a href="./tintuc.html" class="">Tin tức</a></li>
+
+                    <li class=""><a href="./tuyen-dung.html" class="">Tuyển dụng</a></li>
+
+                    <li class=""><a href="./lien-he.html" class="">Liên hệ</a></li>
+                </ul>
+            </div>
+
+            <div class="menu-lang">
+                <a href="#" target="_blank"><i class="fab fa-facebook-f"></i></a>
+
+                <a href="#" target="_blank"><i class="fab fa-instagram"></i></a>
+
+                <a href="#" target="_blank"><i class="fab fa-youtube"></i></a>
+            </div>
+
+            <div class="avatar">
+                <a href="#">
+                  <img class="icon_image" src="./images/avatar.png" alt="logo-mb" />
+                </a>
+              </div>
+        </div>
+    </div>
+    <!-- end header pc -->
+
+    <!-- Header mobile -->
+    <div class="header-mb-container" id="my-header-mb">
+        <div class="menu-mb">
+            <div id="mySidenav" class="sidenav">
+                <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+                <a href="./index.html">Trang Chủ</a>
+                <a href="./gioithieu.html">Giới Thiệu</a>
+                <a href="./nhuongquyen.html">Nhượng Quyền</a>
+                <a href="./cuahang.html">Cửa Hàng</a>
+                <a href="./sanpham.html">Sản Phẩm</a>
+                <a href="./tintuc.html">Tin Tức</a>
+                <a href="./tuyen-dung.html">Tuyển Dụng</a>
+                <a href="./lien-he.html">Liên Hệ</a>
+            </div>
+
+            <span style="font-size: 30px; cursor: pointer;" onclick="openNav()">&#9776;</span>
+
+            <div class="logo-mb">
+                <a href="#">
+                    <img src="./images/logo.png" alt="logo-mb" />
+                </a>
+            </div>
+        </div>
+    </div>
+    <!-- end header mobile -->
+    <!-- Content -->
+    <div id="content" class="row">
+        <div class="col-mb-12" id="introduce-page">
+            <div class="row" id="introduce-banner">
+                <div class="container">
+                    <div class="col-mb-12 align-items-center d-flex">
+                        <div class="introduce-banner-card">
+                            <div class="card-breadcrumb">
+                                <p>
+                                    <a href="https://trasuabumba.com/" class="upper card-link">Trang chủ</a> -
+                                    <a class="upper card-link">Liên hệ</a>
+                                </p>
+                            </div>
+                            <div class="card-title">
+                                <h1 class="white-color">Liên hệ với Bumba</h1>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row contact-intro">
+                <div class="container">
+                    <div class="row">
+                        <div class="container">
+                            <div>
+                                    <p>Từng ngày Bumba trở nên hoàn thiện hơn về diện mạo, chất lượng sản phẩm, dịch vụ là
+                                        nhờ sự đóng góp ý kiến của quý khách hàng. Để cảm nhận sự thay đổi ấy, đừng ngừng
+                                        ngại nói với Bumba nhé</p>
+    
+                            </div>
+                        </div>
+                        
+                    </div>
+                </div>
+            </div>
+            <div id="contact-form">
+                <div class="container">
+                    <div class="row">
+                        <div class="container">
+                            <div class="">
+                                <form action="#" method="post">
+                                    <div class="form-group w-pc-50">
+                                        <input type="text" class="form-control" name="name" id="myName"
+                                            placeholder="Họ &amp; Tên">
+                                    </div>
+
+                                    <div class="form-group w-pc-50">
+                                        <input type="email" class="form-control" name="email" id="myEmail"
+                                            placeholder="Email">
+                                    </div>
+
+                                    <div class="form-group w-pc-30">
+                                        <input type="tel" class="form-control" name="tel" id="myTel"
+                                            placeholder="Điện thoại">
+                                    </div>
+
+                                    <div class="form-group w-pc-30">
+                                        <select name="address2" id="inputID" class="form-control">
+                                            <option value="TP. Hồ Chí Minh">TP. Hồ Chí Minh</option>
+                                            <option value="Hà Nội">Hà Nội</option>
+                                            <option value="Bạc Liêu">Bạc Liêu</option>
+                                            <option value="Bình Dương">Bình Dương</option>
+                                            <option value="Đồng Nai">Đồng Nai</option>
+                                            <option value="Tây Ninh">Tây Ninh</option>
+                                            <option value="Vĩnh Long">Vĩnh Long</option>
+                                            <option value="Hải Phòng">Hải Phòng</option>
+                                            <option value="Quảng Ninh">Quảng Ninh</option>
+                                            <option value="Thái Bình">Thái Bình</option>
+                                            <option value="Thái Nguyên">Thái Nguyên</option>
+                                            <option value="Đà Nẵng">Đà Nẵng</option>
+                                            <option value="Phú Yên">Phú Yên</option>
+                                            <option value="Quảng Ngãi">Quảng Ngãi</option>
+                                            <option value="Thanh Hóa">Thanh Hóa</option>
+                                            <option value="Cà Mau">Cà Mau</option>
+
+                                        </select>
+                                    </div>
+
+                                    <div class="form-group w-pc-30">
+                                        <select name="address" id="inputID" class="form-control">
+                                            <option value="Bumba Cầu Giấy">Bumba Cầu Giấy</option>
+                                            <option value="Bumba Hạ Long">Bumba Hạ Long</option>
+                                            <option value="Bunba Cẩm Phả">Bunba Cẩm Phả</option>
+                                            <option value="Bumba Thái Nguyên">Bumba Thái Nguyên</option>
+                                            <option value="Bumba Thái Bình">Bumba Thái Bình</option>
+                                            <option value="Bumba Kiến An">Bumba Kiến An</option>
+                                            <option value="Bumba Bùi Thị Từ Nhiên">Bumba Bùi Thị Từ Nhiên</option>
+                                            <option value="Bumba An Lão  (Tạm ngừng)">Bumba An Lão (Tạm ngừng)</option>
+                                            <option value="Bumba Tiên Lãng (Tạm ngừng)">Bumba Tiên Lãng (Tạm ngừng)
+                                            </option>
+                                            <option value="Bumba Lê Lai">Bumba Lê Lai</option>
+                                            <option value="Bumba Quảng Ngãi (Tạm ngừng)">Bumba Quảng Ngãi (Tạm ngừng)
+                                            </option>
+                                            <option value="Bumba Tuy Hoà">Bumba Tuy Hoà</option>
+                                            <option value="Bumba Vincom Đà Nẵng">Bumba Vincom Đà Nẵng</option>
+                                            <option value="Bumba Đặng Văn Bi (Tạm ngừng)">Bumba Đặng Văn Bi (Tạm ngừng)
+                                            </option>
+                                            <option value="Bumba Tây Ninh">Bumba Tây Ninh</option>
+                                            <option value="Bumba Biên Hoà">Bumba Biên Hoà</option>
+                                            <option value="Bumba Bạc Liêu">Bumba Bạc Liêu</option>
+                                            <option value="Bumba Cà Mau">Bumba Cà Mau</option>
+                                            <option value="Bumba Phú Hòa">Bumba Phú Hòa</option>
+                                            <option value="Bumba Tân Phú">Bumba Tân Phú</option>
+                                            <option value="Bumba Dĩ An Bình Dương">Bumba Dĩ An Bình Dương</option>
+                                            <option value="Bumba Mỹ Phước 1">Bumba Mỹ Phước 1</option>
+                                            <option value="Bumba Quận 4">Bumba Quận 4</option>
+                                            <option value="Bumba Tân Bình">Bumba Tân Bình</option>
+                                            <option value="Bumba Vĩnh Long">Bumba Vĩnh Long</option>
+                                            <option value="Bumba AEON Bình Dương">Bumba AEON Bình Dương</option>
+                                            <option value="Bumba Diamond">Bumba Diamond</option>
+                                            <option value="Bumba Vincom Thủ Đức">Bumba Vincom Thủ Đức</option>
+                                            <option value="Bumba Parkson">Bumba Parkson</option>
+                                            <option value="Bumba AEON Bình Tân">Bumba AEON Bình Tân</option>
+                                            <option value="Bumba Vạn Hạnh Mall">Bumba Vạn Hạnh Mall</option>
+                                            <option value="Bumba Cô Bắc">Bumba Cô Bắc</option>
+                                            <option value="Bumba Hoàng Sa">Bumba Hoàng Sa</option>
+                                        </select>
+                                    </div>
+
+                                    <div class="form-group w-pc-100">
+                                        <h3 class="form-label">Vấn đề phản hồi</h3>
+
+                                        <div class="radio">
+                                            <label>
+                                                <input type="radio" name="description_first" value="Đề xuất"
+                                                    checked="checked">
+                                                Đề xuất
+                                            </label>
+                                            <label>
+                                                <input type="radio" name="description_first" value="Nhượng quyền">
+                                                Nhượng quyền
+                                            </label>
+                                            <label>
+                                                <input type="radio" name="description_first" value="Ứng tuyển">
+                                                Ứng tuyển
+                                            </label>
+                                            <label>
+                                                <input type="radio" name="description_first" value="Khác">
+                                                Khác
+                                            </label>
+
+                                        </div>
+                                    </div>
+
+                                    <div class="form-group w-pc-100">
+                                        <h3 class="form-label">Ảnh đính kèm</h3>
+                                        <input type="file" name="file" class="form-control" id="myFile"
+                                            accept="image/*">
+                                    </div>
+
+                                    <div class="form-group w-pc-100">
+                                        <h3 class="form-label">Nội dung phản hồi</h3>
+                                        <textarea name="description" rows="15" cols="100" style="width: 100%">
+                            </textarea>
+                                    </div>
+
+                                    <div
+                                        class="form-group">
+                                        <button type="submit" class="btn btn-primary" title="Send us a message"
+                                            id="mySubmit">Gửi</button>
+                                    </div>
+
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div id="contact-intro">
+                <div class="container">
+                    <div class="row">
+                        <div class="container">
+                            <div class="policy-box">
+                                <h3 class="policy-title">Thỏa thuận bảo mật thông tin</h3>
+
+                                <p>Bumba cam kết giữ bí mật hoàn toàn thông tin của quý khách theo đúng quy định pháp
+                                    luật nước sở tại về bảo mật thông tin có liên quan, Trường hợp xảy ra khiếu nại,
+                                    than phiền, Bumba có thể sẽ sử dụng thông tin khách hàng để chuyển giao đến bộ phận
+                                    liên quan giải quyết.</p>
+
+                                <p>1. Một bộ phận trực thuộc Bumba</p>
+
+                                <p>2. Bên thứ ba được ủy quyền chính thức từ Bumba cho việc giải quyết các than phiền,
+                                    khiếu nại mang tính chất nghiêm trọng</p>
+
+                                <p>Thời gian giải quyết khiếu nại than phiền được tính dựa trên các ngày làm việc trong
+                                    tuần, từ thứ 2 đến thứ 6 theo giờ hành chính.</p>
+
+                                <p>1. Bumba cam kết bảo mật các thông tin mà khách hàng cung cấp và tuân thủ quy định
+                                    pháp luật về bảo mật những thông tin liên quan.</p>
+
+                                <p>2. Thông tin cá nhân của khách hàng được sử dụng nhằm mục đích</p>
+
+                                <p>- Giảm quyết khiếu nại, than phiền</p>
+
+                                <p>- Tiếp nhận ý kiến để cải thiện chất lượng sản phẩm, dịch vụ</p>
+
+                                <p>- Cung cấp thông tin các chương trình khuyến mãi</p>
+
+                                <p>3. Bumba có thể tiết lộ thông tin khách hàng cho mục đính giải quyết khiếu nại, than
+                                    phiền của khách hàng cho:</p>
+
+                                <p>- Các bộ phận thuộc công ty cổ phần TMDV Chào Ngày Mới - Trà Sữa Bumba</p>
+
+                                <p>- Bển thứ ba được ủy quyền chính thức từ trà sữa Bumba cho việc giải quyết các than
+                                    phiền, khiếu nại mang tính chất nghiêm trọng</p>
+
+                                <h3>Lưu ý:</h3>
+
+                                <p>Quý khách hàng vui lòng cung cấp đầy đủ chính xác các thông tin cá nhân để Bumba có
+                                    thể liên hệ giải quyết vấn đề hoặc tiếp nhận ý kiến của khách hàng một cách nhanh
+                                    nhất</p>
+
+                                <p>Quá trình giải quyết và xử lí của khách hàng sẽ chậm hơn vào các ngày thứ 7, cn, ngày
+                                    lễ</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Footer responsive -->
+    <div class="footer-site">
+        <div class="row">
+            <div class="col-pc-6 col-mb-12">
+                <div class="footer-card-l">
+                    <!-- Footer left-->
+                    <div class="footer-logo">
+                        <img src="./images/logo-footer.png" alt="foot-logo" />
+                    </div>
+
+                    <div class="precept">
+                        <p>
+                            Với châm ngôn tuyệt đối không sử dụng nguyên liệu không rõ nguồn
+                            gốc xuất xứ, trà sữa Bumba tự hào mang lại cho khách hàng những
+                            sản phẩm, chất lượng tốt nhất
+                        </p>
+                    </div>
+
+                    <div class="footer-social">
+                        <a href="#" target="_blank"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#" target="_blank"><i class="fab fa-instagram"></i></a>
+                        <a href="#" target="_blank"><i class="fab fa-youtube"></i></a>
+                    </div>
+                </div>
+            </div>
+            <!--Footer right-->
+            <div class="col-pc-6 col-mb-12">
+                <div class="footer-card-r">
+                    <h3>Liên hệ</h3>
+                    <p class="fw-600">Công ty CP TM DV Chào Ngày Mới</p>
+                    <p>
+                        Tầng 3 - Tòa nhà Green Bee - 684/28A Trần Hưng Đạo, Phường 2, Quận
+                        5, TP. Hồ Chí Minh
+                    </p>
+
+                    <p>Email: franchise@trasuabumba.com</p>
+                    <p>Hotline: 0975 277 017</p>
+                </div>
+            </div>
+
+            <div class="col-pc-12 col-mb-12">
+                <div class="copy-right">
+                    <p>
+                        Copyright © 2020 Bumba. Developed by
+                        <a href="https://ions.vn" target="_blank">IONS</a>
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- end footer -->
+
+    <!-- Media button -->
+    <div class="media-button">
+        <a href="#" class="fas fa-phone media-items"></a>
+        <a href="#" class="fas fa-envelope media-items"></a>
+        <a href="#" class="fab fa-facebook-messenger fa-3x mess"></a>
+    </div>
+
+    <!-- end media button -->
+    <!--SCRIPT-->
+
+    <!--width menu mobile-->
+    <script>
+        function openNav() {
+            document.getElementById("mySidenav").style.width = "100%";
+        }
+
+        function closeNav() {
+            document.getElementById("mySidenav").style.width = "0";
+        }
+    </script>
+
+    <!--Change name to responsive for mobile-->
+    <script>
+        function myFunction() {
+            var x = document.getElementById("my-header-mb");
+            if (x.className === "header-mb-container") {
+                x.className += " responsive";
+            } else {
+                x.className = "header-mb-container";
+            }
+        }
+    </script>
+
+    <!-- sroll logo size-->
+    <script>
+        window.onscroll = function () {
+            if (
+                document.body.scrollTop > 40 ||
+                document.documentElement.scrollTop > 40
+            ) {
+                document.getElementById("menu-site").style.padding = "0.8rem";
+                document.getElementById("logo").style.width = "6rem";
+            } else {
+                document.getElementById("menu-site").style.padding = "1.2rem";
+                document.getElementById("logo").style.width = "9rem";
+            }
+        };
+    </script>
+    <script type="text/javascript" src="js/jquery-3.3.1.min.js"></script>
+    <script type="text/javascript" src="js/script.js"></script>
+    <script type="text/javascript" src="js/slide.js"></script>
+</body>
+
+</html>

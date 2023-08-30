@@ -1,0 +1,2031 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./css/normalize.css" />
+    <link rel="stylesheet" href="./css/grid.css" />
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
+      integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf"
+      crossorigin="anonymous"
+    />
+
+    <link rel="stylesheet" href="./css/sanpham.css" />
+
+    <link
+      href="https://fonts.googleapis.com/css2?family=Quicksand&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./css/card.css" />
+    <link rel="stylesheet" href="./css/stylehf.css" />
+
+    <title>Bumba Ta Tua</title>
+  </head>
+  <body>
+    <!-- Header pc -->
+    <div id="header-container" class="hidden-mb">
+      <div id="menu-site">
+        <div class="menu-logo">
+          <a href="#">
+            <img id="logo" src="./images/logo.png" alt="logo" />
+          </a>
+        </div>
+
+        <div class="menu-tab">
+          <ul>
+            <li class=""><a href="./index.html" class="">Trang chủ</a></li>
+
+            <li class=""><a href="./gioithieu.html" class="">Giới thiệu</a></li>
+
+            <li class="">
+              <a href="./nhuongquyen.html" class="">Nhượng quyền</a>
+            </li>
+
+            <li class=""><a href="./cuahang.html" class="">Cửa hàng</a></li>
+
+            <li class=""><a href="./sanpham.html" class="">Sản phẩm</a></li>
+
+            <li class=""><a href="./tintuc.html" class="">Tin tức</a></li>
+
+            <li class="">
+              <a href="./tuyen-dung.html" class="">Tuyển dụng</a>
+            </li>
+
+            <li class=""><a href="./lien-he.html" class="">Liên hệ</a></li>
+          </ul>
+        </div>
+
+        <div class="menu-lang">
+          <a href="#" target="_blank"><i class="fab fa-facebook-f"></i></a>
+
+          <a href="#" target="_blank"><i class="fab fa-instagram"></i></a>
+
+          <a href="#" target="_blank"><i class="fab fa-youtube"></i></a>
+        </div>
+      </div>
+    </div>
+    <!-- end header pc -->
+
+    <!-- Header mobile -->
+    <div class="header-mb-container" id="my-header-mb">
+      <div class="menu-mb">
+        <div id="mySidenav" class="sidenav">
+          <a href="javascript:void(0)" class="closebtn" onclick="closeNav()"
+            >&times;</a
+          >
+          <a href="./index.html">Trang Chủ</a>
+          <a href="./gioithieu.html">Giới Thiệu</a>
+          <a href="./nhuongquyen.html">Nhượng Quyền</a>
+          <a href="./cuahang.html">Cửa Hàng</a>
+          <a href="./sanpham.html">Sản Phẩm</a>
+          <a href="./tintuc.html">Tin Tức</a>
+          <a href="./tuyen-dung.html">Tuyển Dụng</a>
+          <a href="./lien-he.html">Liên Hệ</a>
+        </div>
+
+        <span style="font-size: 30px; cursor: pointer;" onclick="openNav()"
+          >&#9776;</span
+        >
+
+        <div class="logo-mb">
+          <a href="#">
+            <img src="./images/logo.png" alt="logo-mb" />
+          </a>
+        </div>
+      </div>
+    </div>
+    <!-- end header mobile -->
+
+    <!-- CONTENT -->
+    <div class="main-container">
+      <!-- Banner -->
+      <div class="banner">
+        <div class="banner-img">
+          <!-- <img src="./images/banner-sp.jpg" alt="bannerr"> -->
+
+          <div class="banner-card">
+            <div class="card-breadcrumb">
+              <p>
+                <a href="https://trasuabumba.com/" class="upper">Trang chủ</a> -
+                <a class="upper">Sản phẩm</a>
+              </p>
+            </div>
+
+            <div class="card-title">
+              <h1 class="fw-700 white-cl">Sản phẩm</h1>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- San pham -->
+      <article class="article">
+        <div class="grid__item--1of1 text-center">
+          <div class="tabs">
+            <input type="radio" name="tabs" id="tab1" checked />
+            <label for="tab1" id="lbl1">
+              <img src="./images/tat-ca-san-pham.jpg" alt="all" /><span
+                >Tất cả</span
+              >
+            </label>
+
+            <input type="radio" name="tabs" id="tab2" />
+            <label for="tab2">
+              <img src="./images/combo.png" alt="" /><span>Combo</span>
+            </label>
+
+            <input type="radio" name="tabs" id="tab3" />
+            <label for="tab3">
+              <img src="./images/tra-sua.png" alt="" /><span>Trà sữa</span>
+            </label>
+
+            <input type="radio" name="tabs" id="tab4" />
+            <label for="tab4">
+              <img src="./images/tra-nguyen-vi.png" alt="" /><span
+                >Trà nguyên vị</span
+              >
+            </label>
+
+            <input type="radio" name="tabs" id="tab5" />
+            <label for="tab5">
+              <img src="./images/machiato.png" alt="" /><span>Macchiato</span>
+            </label>
+
+            <input type="radio" name="tabs" id="tab6" />
+            <label id="lbl6" for="tab6">
+              <img src="./images/soda.png" alt="" /><span>Soda</span>
+            </label>
+
+            <input type="radio" name="tabs" id="tab7" />
+            <label for="tab7">
+              <img src="./images/toppin.png" alt="" /><span>Topping</span>
+            </label>
+
+            <!-- Noi dung tag -->
+            <!-- Alll -->
+            <div id="tab__content--1" class="tab__content">
+              <div class="row">
+                <div class="col-pc-6 col-mb-6">
+                  <figure class="image-item left1">
+                    <a href="#">
+                      <img src="./images/img-combo/cb1.jpg" />
+
+                      <div class="product-card">
+                        <div class="product-title">
+                          <h3 title="Combo 1">
+                            Combo 1
+                          </h3>
+                        </div>
+                        <div class="product-block">
+                          <div class="product-card-p">
+                            <p>Trà sữa Bumba,</p>
+                            <p>trân châu đen,</p>
+                            <p>nha đam</p>
+                          </div>
+                        </div>
+                        <div class="product-price">
+                          <span class="discount-price">46K</span>
+                          <span >39K</span>
+                        </div>
+                        
+                      </div>
+                    </a>
+                  </figure>
+
+                  <figure class="image-item">
+                    <a href="#">
+                      <img src="./images/img-combo/cb2.jpg" />
+
+                      <div class="product-card">
+                        <div class="product-title">
+                          <h3 title="Combo 2">
+                            Combo 2
+                          </h3>
+                        </div>
+                        <div class="product-block">
+                          <div class="product-card-p">
+                            <p>Trà sữa oolong, thạch 3Q, sương sáo</p>
+                          </div>
+                        </div>
+                        <div class="product-price">
+                          <span>46K</span>
+                        </div>
+                      </div>
+                    </a>
+                  </figure>
+
+                  <figure class="image-item left1">
+                    <a href="#">
+                      <img src="./images/img-combo/cb5.jpg" />
+
+                      <div class="product-card">
+                        <div class="product-title">
+                          <h3 title="Combo 5">
+                            Combo 5
+                          </h3>
+                        </div>
+                        <div class="product-block">
+                          <div class="product-card-p">
+                            <p>
+                              Trà chanh sả,&nbsp;trân châu đen,&nbsp;thạch 3Q
+                            </p>
+                          </div>
+                        </div>
+                        <div class="product-price">
+                          <span>49K</span>
+                        </div>
+                      </div>
+                    </a>
+                  </figure>
+
+                  <figure class="image-item">
+                    <a href="#">
+                      <img src="./images/img-combo/cb6.jpg" />
+
+                      <div class="product-card">
+                        <div class="product-title">
+                          <h3 title="Combo 6">
+                            Combo 6
+                          </h3>
+                        </div>
+                        <div class="product-block">
+                          <div class="product-card-p">
+                            <p>Trà thanh nhiệt collagen,&nbsp;hạt sen</p>
+                          </div>
+                        </div>
+                        <div class="product-price">
+                          <span>49K</span>
+                        </div>
+                      </div>
+                    </a>
+                  </figure>
+
+                  <figure class="image-item left1">
+                    <a href="#">
+                      <img src="./images/img-tatua/ttbumba.jpg" />
+
+                      <div class="product-card">
+                        <div class="product-title">
+                          <h3 title="Trà sữa bumba">
+                            Trà sữa bumba
+                          </h3>
+                        </div>
+                        <div class="product-block">
+                          <div class="product-card-p">
+                            <p>Bumba Milk Tea</p>
+                          </div>
+                        </div>
+                        <div class="product-price">
+                          <span>32K</span>
+                        </div>
+                      </div>
+                    </a>
+                  </figure>
+
+                  <figure class="image-item">
+                    <a href="#">
+                      <img src="./images/img-tatua/ttnhai.jpg" />
+
+                      <div class="site-card product-card">
+                        <div class="product-title">
+                          <h3 title="Trà sữa nhài">
+                            Trà sữa nhài
+                          </h3>
+                        </div>
+                        <div class="product-block">
+                          <div class="product-card-p">
+                            <p>Jasmine Milk Tea</p>
+                          </div>
+                        </div>
+                        <div class="product-price">
+                          <span>32K</span>
+                        </div>
+                      </div>
+                    </a>
+                  </figure>
+
+                  <figure class="image-item left1">
+                    <a href="#">
+                      <img src="./images/img-tatua/ttcafe.jpg" />
+
+                      <div class="site-card product-card">
+                        <div class="product-title">
+                          <h3 title="Trà sữa cafe">
+                            Trà sữa cafe
+                          </h3>
+                        </div>
+                        <div class="product-block">
+                          <div class="product-card-p">
+                            <p>Coffee Milk Tea</p>
+                          </div>
+                        </div>
+                        <div class="product-price">
+                          <span>32K</span>
+                        </div>
+                      </div>
+                    </a>
+                  </figure>
+
+                  <figure class="image-item">
+                    <a href="#">
+                      <img src="./images/img-tatua/ttmacha.jpg" />
+                      <div class="site-card product-card">
+                        <div class="product-title">
+                          <h3 title="Trà sữa matcha">
+                            Trà sữa matcha
+                          </h3>
+                        </div>
+                        <div class="product-block">
+                          <div class="product-card-p">
+                            <p>Matcha Milk Tea</p>
+                          </div>
+                        </div>
+                        <div class="product-price">
+                          <span>38K</span>
+                        </div>
+                      </div>
+                    </a>
+                  </figure>
+
+                  <figure class="image-item left1">
+                    <a href="#">
+                      <img src="./images/img-nguyenvi/olongbd.jpg" />
+
+                      <div class="product-card">
+                        <div class="product-title">
+                          <h3 title="Trà oolong bí đao">
+                            Trà oolong bí đao
+                          </h3>
+                        </div>
+                        <div class="product-block">
+                          <div class="product-card-p">
+                            <p>Winter Melon Oolong Tea</p>
+                          </div>
+                        </div>
+                        <div class="product-price">
+                          <span>29K</span>
+                        </div>
+                      </div>
+                    </a>
+                  </figure>
+
+                  <figure class="image-item">
+                    <a href="#">
+                      <img src="./images/img-nguyenvi/dua.jpg" />
+
+                      <div class="product-card">
+                        <div class="product-title">
+                          <h3 title="Trà thanh nhiệt dứa">
+                            Trà thanh nhiệt dứa
+                          </h3>
+                        </div>
+                        <div class="product-block">
+                          <div class="product-card-p">
+                            <p>Pineapple Tea</p>
+                          </div>
+                        </div>
+                        <div class="product-price">
+                          <span>34K</span>
+                        </div>
+                      </div>
+                    </a>
+                  </figure>
+
+                  <figure class="image-item left1">
+                    <a href="#">
+                      <img src="./images/img-nguyenvi/dau.jpg" />
+
+                      <div class="site-card product-card">
+                        <div class="product-title">
+                          <h3 title="Trà dâu">
+                            Trà dâu
+                          </h3>
+                        </div>
+                        <div class="product-block">
+                          <div class="product-card-p">
+                            <p>Strawberry Tea</p>
+                          </div>
+                        </div>
+                        <div class="product-price">
+                          <span>36K</span>
+                        </div>
+                      </div>
+                    </a>
+                  </figure>
+
+                  <figure class="image-item">
+                    <a href="#">
+                      <img src="./images/img-nguyenvi/quat.jpg" />
+
+                      <div class="site-card product-card">
+                        <div class="product-title">
+                          <h3 title="Trà việt quất">
+                            Trà việt quất
+                          </h3>
+                        </div>
+                        <div class="product-block">
+                          <div class="product-card-p">
+                            <p>Blueberry Tea</p>
+                          </div>
+                        </div>
+                        <div class="product-price">
+                          <span>36K</span>
+                        </div>
+                      </div>
+                    </a>
+                  </figure>
+
+                  <figure class="image-item left1">
+                    <a href="#">
+                      <img src="./images/img-machiato/maolong.jpg" />
+
+                      <div class="site-card product-card">
+                        <div class="product-title">
+                          <h3 title="Trà oolong bí đao macchiato">
+                            Trà oolong bí đao macchiato
+                          </h3>
+                        </div>
+                        <div class="product-block">
+                          <div class="product-card-p">
+                            <p>Winter Melon Oolong Tea Macchiato</p>
+                          </div>
+                        </div>
+                        <div class="product-price">
+                          <span>38K</span>
+                        </div>
+                      </div>
+                    </a>
+                  </figure>
+
+                  <figure class="image-item">
+                    <a href="#">
+                      <img src="./images/img-machiato/masua.jpg" />
+
+                      <div class="site-card product-card">
+                        <div class="product-title">
+                          <h3 title="Trà sữa bumba macchiato">
+                            Trà sữa bumba macchiato
+                          </h3>
+                        </div>
+                        <div class="product-block">
+                          <div class="product-card-p">
+                            <p>Bumba Milk Tea Macchiato</p>
+                          </div>
+                        </div>
+                        <div class="product-price">
+                          <span>40K</span>
+                        </div>
+                      </div>
+                    </a>
+                  </figure>
+
+                  <figure class="image-item left1">
+                    <a href="#">
+                      <img src="./images/img-soda/soda1.jpg" />
+
+                      <div class="site-card product-card">
+                        <div class="product-title">
+                          <h3 title="Soda dứa">
+                            Soda dứa
+                          </h3>
+                        </div>
+                        <div class="product-block">
+                          <div class="product-card-p">
+                            <p>Pineapple Soda</p>
+                          </div>
+                        </div>
+                        <div class="product-price">
+                          <span>38K</span>
+                        </div>
+                      </div>
+                    </a>
+                  </figure>
+
+                  <figure class="image-item">
+                    <a href="#">
+                      <img src="./images/img-soda/soda2.jpg" />
+
+                      <div class="site-card product-card">
+                        <div class="product-title">
+                          <h3 title="Soda ổi hồng">
+                            Soda ổi hồng
+                          </h3>
+                        </div>
+                        <div class="product-block">
+                          <div class="product-card-p">
+                            <p>Pink Guava Soda</p>
+                          </div>
+                        </div>
+                        <div class="product-price">
+                          <span>38K</span>
+                        </div>
+                      </div>
+                    </a>
+                  </figure>
+
+                  <figure class="image-item left1">
+                    <a href="#">
+                      <img src="./images/img-topping/top1.jpg" />
+
+                      <div class="site-card product-card">
+                        <div class="product-title">
+                          <h3 title="Trân châu đen">
+                            Trân châu đen
+                          </h3>
+                        </div>
+                        <div class="product-block">
+                          <div class="product-card-p">
+                            <p>Black Bubble</p>
+                          </div>
+                        </div>
+                        <div class="product-price">
+                          <span>8K</span>
+                        </div>
+                      </div>
+                    </a>
+                  </figure>
+
+                  <figure class="image-item">
+                    <a href="#">
+                      <img src="./images/img-topping/top2.jpg" />
+
+                      <div class="site-card product-card">
+                        <div class="product-title">
+                          <h3 title="Flan trứng">
+                            Flan trứng
+                          </h3>
+                        </div>
+                        <div class="product-block">
+                          <div class="product-card-p">
+                            <p>Egg Flan</p>
+                          </div>
+                        </div>
+                        <div class="product-price">
+                          <span>8K</span>
+                        </div>
+                      </div>
+                    </a>
+                  </figure>
+
+                  <figure class="image-item left1">
+                    <a href="#">
+                      <img src="./images/img-topping/top5.jpg" />
+
+                      <div class="product-card">
+                        <div class="product-title">
+                          <h3 title="Thạch 3Q">
+                            Thạch 3Q
+                          </h3>
+                        </div>
+                        <div class="product-block">
+                          <div class="product-card-p">
+                            <p>3Q Jelly</p>
+                          </div>
+                        </div>
+                        <div class="product-price">
+                          <span>12K</span>
+                        </div>
+                      </div>
+                    </a>
+                  </figure>
+
+                  <figure class="image-item">
+                    <a href="#">
+                      <img src="./images/img-topping/top6.jpg" />
+
+                      <div class="site-card product-card">
+                        <div class="product-title">
+                          <h3 title="Foam macchiato">
+                            Foam macchiato
+                          </h3>
+                        </div>
+                        <div class="product-block">
+                          <div class="product-card-p">
+                            <p>Foam Macchiato</p>
+                          </div>
+                        </div>
+                        <div class="product-price">
+                          <span>12K</span>
+                        </div>
+                      </div>
+                    </a>
+                  </figure>
+                </div>
+
+                <div class="col-pc-6 col-mb-6">
+                  <figure class="image-item left2">
+                    <a href="#">
+                      <img src="./images/img-topping/top3.jpg" />
+
+                      <div class="site-card product-card">
+                        <div class="product-title">
+                          <h3 title="Nha đam">
+                            Nha đam
+                          </h3>
+                        </div>
+                        <div class="product-block">
+                          <div class="product-card-p">
+                            <p>Aloe Vera Jelly</p>
+                          </div>
+                        </div>
+                        <div class="product-price">
+                          <span>10K</span>
+                        </div>
+                      </div>
+                    </a>
+                  </figure>
+
+                  <figure class="image-item">
+                    <a href="#">
+                      <img src="./images/img-topping/top4.jpg" />
+
+                      <div class="product-card">
+                        <div class="product-title">
+                          <h3 title="Sương sáo">
+                            Sương sáo
+                          </h3>
+                        </div>
+                        <div class="product-block">
+                          <div class="product-card-p">
+                            <p>Grass Jelly</p>
+                          </div>
+                        </div>
+                        <div class="product-price">
+                          <span>10K</span>
+                        </div>
+                      </div>
+                    </a>
+                  </figure>
+
+                  <figure class="image-item left2">
+                    <a href="#">
+                      <img src="./images/img-combo/cb3.jpg" />
+
+                      <div class="product-card">
+                        <div class="product-title">
+                          <h3 title="Combo 3">
+                            Combo 3
+                          </h3>
+                        </div>
+                        <div class="product-block">
+                          <div class="product-card-p">
+                            <p>Trà sữa nếp cẩm,&nbsp;Flan trứng</p>
+                          </div>
+                        </div>
+                        <div class="product-price">
+                          <span>46K</span>
+                        </div>
+                      </div>
+                    </a>
+                  </figure>
+
+                  <figure class="image-item">
+                    <a href="#">
+                      <img src="./images/img-combo/cb4.jpg" />
+
+                      <div class="product-card">
+                        <div class="product-title">
+                          <h3 title="Combo 4">
+                            Combo 4
+                          </h3>
+                        </div>
+                        <div class="product-block">
+                          <div class="product-card-p">
+                            <p>Trà sữa socola, trân châu đen, Flan trứng</p>
+                          </div>
+                        </div>
+                        <div class="product-price">
+                          <span>49K</span>
+                        </div>
+                      </div>
+                    </a>
+                  </figure>
+
+                  <figure class="image-item left2">
+                    <a href="#">
+                      <img src="./images/img-combo/cb7.jpg" obj.alt="obj.alt" />
+
+                      <div class="site-card product-card">
+                        <div class="product-title">
+                          <h3 title="Combo 7">
+                            Combo 7
+                          </h3>
+                        </div>
+                        <div class="product-block">
+                          <div class="product-card-p">
+                            <p>
+                              Trà sữa matcha,&nbsp;trân châu đen,&nbsp;Flan
+                              trứng
+                            </p>
+                          </div>
+                        </div>
+                        <div class="product-price">
+                          <span>49K</span>
+                        </div>
+                      </div>
+                    </a>
+                  </figure>
+
+                  <figure class="image-item">
+                    <a href="#">
+                      <img src="./images/img-combo/cb8.jpg" />
+
+                      <div class="site-card product-card">
+                        <div class="product-title">
+                          <h3 title="Combo 8">
+                            Combo 8
+                          </h3>
+                        </div>
+                        <div class="product-block">
+                          <div class="product-card-p">
+                            <p>Trà sữa yến mạch,&nbsp;trân châu đen</p>
+                          </div>
+                        </div>
+                        <div class="product-price">
+                          <span>52K</span>
+                        </div>
+                      </div>
+                    </a>
+                  </figure>
+
+                  <figure class="image-item left2">
+                    <a href="#">
+                      <img src="./images/img-tatua/ttolong.jpg" />
+
+                      <div class="product-card">
+                        <div class="product-title">
+                          <h3 title="Trà sữa oolong">
+                            Trà sữa oolong
+                          </h3>
+                        </div>
+                        <div class="product-block">
+                          <div class="product-card-p">
+                            <p>Oolong Milk Tea</p>
+                          </div>
+                        </div>
+                        <div class="product-price">
+                          <span>32K</span>
+                        </div>
+                      </div>
+                    </a>
+                  </figure>
+
+                  <figure class="image-item">
+                    <a href="#">
+                      <img src="./images/img-nguyenvi/oihong.jpg" />
+
+                      <div class="product-card">
+                        <div class="product-title">
+                          <h3 title="Trà ổi hồng">
+                            Trà ổi hồng
+                          </h3>
+                        </div>
+                        <div class="product-block">
+                          <div class="product-card-p">
+                            <p>Pink Guava Tea</p>
+                          </div>
+                        </div>
+                        <div class="product-price">
+                          <span>34K</span>
+                        </div>
+                      </div>
+                    </a>
+                  </figure>
+
+                  <figure class="image-item left2">
+                    <a href="#">
+                      <img src="./images/img-nguyenvi/chanh.jpg" />
+
+                      <div class="site-card product-card">
+                        <div class="product-title">
+                          <h3 title="Trà chanh sả">
+                            Trà chanh sả
+                          </h3>
+                        </div>
+                        <div class="product-block">
+                          <div class="product-card-p">
+                            <p>Lemongrass Tea</p>
+                          </div>
+                        </div>
+                        <div class="product-price">
+                          <span>34K</span>
+                        </div>
+                      </div>
+                    </a>
+                  </figure>
+
+                  <figure class="image-item">
+                    <a href="#">
+                      <img src="./images/img-nguyenvi/dao.jpg" />
+
+                      <div class="site-card product-card">
+                        <div class="product-title">
+                          <h3 title="Trà đào">
+                            Trà đào
+                          </h3>
+                        </div>
+                        <div class="product-block">
+                          <div class="product-card-p">
+                            <p>Peach Tea</p>
+                          </div>
+                        </div>
+                        <div class="product-price">
+                          <span>40K</span>
+                        </div>
+                      </div>
+                    </a>
+                  </figure>
+
+                  <figure class="image-item left2">
+                    <a href="#">
+                      <img src="./images/img-nguyenvi/vai.jpg" />
+
+                      <div class="site-card product-card">
+                        <div class="product-title">
+                          <h3 title="Trà vải">
+                            Trà vải
+                          </h3>
+                        </div>
+                        <div class="product-block">
+                          <div class="product-card-p">
+                            <p>Lychee Tea</p>
+                          </div>
+                        </div>
+                        <div class="product-price">
+                          <span>40K</span>
+                        </div>
+                      </div>
+                    </a>
+                  </figure>
+
+                  <figure class="image-item">
+                    <a href="#">
+                      <img src="./images/img-tatua/tthaithan.jpg" />
+
+                      <div class="product-card">
+                        <div class="product-title">
+                          <h3 title="Trà sữa hải thần">
+                            Trà sữa hải thần
+                          </h3>
+                        </div>
+                        <div class="product-block">
+                          <div class="product-card-p">
+                            <p>Hai Than Milk Tea</p>
+                          </div>
+                        </div>
+                        <div class="product-price">
+                          <span>32K</span>
+                        </div>
+                      </div>
+                    </a>
+                  </figure>
+
+                  <figure class="image-item left2">
+                    <a href="#">
+                      <img src="./images/img-tatua/ttsocola.jpg" />
+
+                      <div class="site-card product-card">
+                        <div class="product-title">
+                          <h3 title="Trà sữa socola">
+                            Trà sữa socola
+                          </h3>
+                        </div>
+                        <div class="product-block">
+                          <div class="product-card-p">
+                            <p>Socola Milk Tea</p>
+                          </div>
+                        </div>
+                        <div class="product-price">
+                          <span>38K</span>
+                        </div>
+                      </div>
+                    </a>
+                  </figure>
+
+                  <figure class="image-item">
+                    <a href="#">
+                      <img src="./images/img-tatua/ttkhoaimon.jpg" />
+
+                      <div class="site-card product-card">
+                        <div class="product-title">
+                          <h3 title="Trà sữa khoai môn">
+                            Trà sữa khoai môn
+                          </h3>
+                        </div>
+                        <div class="product-block">
+                          <div class="product-card-p">
+                            <p>Taro Milk Tea</p>
+                          </div>
+                        </div>
+                        <div class="product-price">
+                          <span>38K</span>
+                        </div>
+                      </div>
+                    </a>
+                  </figure>
+
+                  <figure class="image-item left2">
+                    <a href="#">
+                      <img src="./images/img-machiato/mama.jpg" />
+
+                      <div class="site-card product-card">
+                        <div class="product-title">
+                          <h3 title="Trà sữa oolong macchiato">
+                            Trà sữa oolong macchiato
+                          </h3>
+                        </div>
+                        <div class="product-block">
+                          <div class="product-card-p">
+                            <p>Oolong Milk Tea Macchiato</p>
+                          </div>
+                        </div>
+                        <div class="product-price">
+                          <span>40K</span>
+                        </div>
+                      </div>
+                    </a>
+                  </figure>
+
+                  <figure class="image-item">
+                    <a href="#">
+                      <img
+                        src="./images/img-soda/soda3.jpg"
+                        obj.alt="obj.alt"
+                      />
+
+                      <div class="site-card product-card">
+                        <div class="product-title">
+                          <h3 title="Soda việt quất">
+                            Soda việt quất
+                          </h3>
+                        </div>
+                        <div class="product-block">
+                          <div class="product-card-p">
+                            <p>Blueberry Soda</p>
+                          </div>
+                        </div>
+                        <div class="product-price">
+                          <span>38K</span>
+                        </div>
+                      </div>
+                    </a>
+                  </figure>
+
+                  <figure class="image-item left2">
+                    <a href="#">
+                      <img src="./images/img-soda/soda4.jpg" />
+
+                      <div class="site-card product-card">
+                        <div class="product-title">
+                          <h3 title="Soda chanh">
+                            Soda chanh
+                          </h3>
+                        </div>
+                        <div class="product-block">
+                          <div class="product-card-p">
+                            <p>Lemon Soda</p>
+                          </div>
+                        </div>
+                        <div class="product-price">
+                          <span>38K</span>
+                        </div>
+                      </div>
+                    </a>
+                  </figure>
+
+                  <figure class="image-item">
+                    <a href="#">
+                      <img src="./images/img-topping/top3.jpg" />
+
+                      <div class="site-card product-card">
+                        <div class="product-title">
+                          <h3 title="Nha đam">
+                            Nha đam
+                          </h3>
+                        </div>
+                        <div class="product-block">
+                          <div class="product-card-p">
+                            <p>Aloe Vera Jelly</p>
+                          </div>
+                        </div>
+                        <div class="product-price">
+                          <span>10K</span>
+                        </div>
+                      </div>
+                    </a>
+                  </figure>
+
+                  <figure class="image-item left2">
+                    <a href="#">
+                      <img src="./images/img-topping/top4.jpg" />
+
+                      <div class="product-card">
+                        <div class="product-title">
+                          <h3 title="Sương sáo">
+                            Sương sáo
+                          </h3>
+                        </div>
+                        <div class="product-block">
+                          <div class="product-card-p">
+                            <p>Grass Jelly</p>
+                          </div>
+                        </div>
+                        <div class="product-price">
+                          <span>10K</span>
+                        </div>
+                      </div>
+                    </a>
+                  </figure>
+                </div>
+              </div>
+            </div>
+
+            <!-- combo -->
+            <div id="tab__content--2" class="tab__content">
+              <div class="row">
+                <div class="col-pc-6 col-mb-6">
+                  <figure class="image-item left1">
+                    <a href="#">
+                      <img src="./images/img-combo/cb1.jpg" />
+
+                      <div class="product-card">
+                        <div class="product-title">
+                          <h3 title="Combo 1">
+                            Combo 1
+                          </h3>
+                        </div>
+                        <div class="product-block">
+                          <div class="product-card-p">
+                            <p>Trà sữa Bumba,</p>
+                            <p>trân châu đen,</p>
+                            <p>nha đam</p>
+                          </div>
+                        </div>
+                        <div class="product-price">
+                          <span>46K</span>
+                        </div>
+                      </div>
+                    </a>
+                  </figure>
+
+                  <figure class="image-item">
+                    <a href="#">
+                      <img src="./images/img-combo/cb2.jpg" />
+
+                      <div class="product-card">
+                        <div class="product-title">
+                          <h3 title="Combo 2">
+                            Combo 2
+                          </h3>
+                        </div>
+                        <div class="product-block">
+                          <div class="product-card-p">
+                            <p>Trà sữa oolong, thạch 3Q, sương sáo</p>
+                          </div>
+                        </div>
+                        <div class="product-price">
+                          <span>46K</span>
+                        </div>
+                      </div>
+                    </a>
+                  </figure>
+
+                  <figure class="image-item left1">
+                    <a href="#">
+                      <img src="./images/img-combo/cb5.jpg" />
+
+                      <div class="product-card">
+                        <div class="product-title">
+                          <h3 title="Combo 5">
+                            Combo 5
+                          </h3>
+                        </div>
+                        <div class="product-block">
+                          <div class="product-card-p">
+                            <p>
+                              Trà chanh sả,&nbsp;trân châu đen,&nbsp;thạch 3Q
+                            </p>
+                          </div>
+                        </div>
+                        <div class="product-price">
+                          <span>49K</span>
+                        </div>
+                      </div>
+                    </a>
+                  </figure>
+
+                  <figure class="image-item">
+                    <a href="#">
+                      <img src="./images/img-combo/cb6.jpg" />
+
+                      <div class="product-card">
+                        <div class="product-title">
+                          <h3 title="Combo 6">
+                            Combo 6
+                          </h3>
+                        </div>
+                        <div class="product-block">
+                          <div class="product-card-p">
+                            <p>Trà thanh nhiệt collagen,&nbsp;hạt sen</p>
+                          </div>
+                        </div>
+                        <div class="product-price">
+                          <span>49K</span>
+                        </div>
+                      </div>
+                    </a>
+                  </figure>
+                </div>
+
+                <div class="col-pc-6 col-mb-6">
+                  <figure class="image-item left2">
+                    <a href="#">
+                      <img src="./images/img-combo/cb3.jpg" />
+
+                      <div class="product-card">
+                        <div class="product-title">
+                          <h3 title="Combo 3">
+                            Combo 3
+                          </h3>
+                        </div>
+                        <div class="product-block">
+                          <div class="product-card-p">
+                            <p>Trà sữa nếp cẩm,&nbsp;Flan trứng</p>
+                          </div>
+                        </div>
+                        <div class="product-price">
+                          <span>46K</span>
+                        </div>
+                      </div>
+                    </a>
+                  </figure>
+
+                  <figure class="image-item">
+                    <a href="#">
+                      <img src="./images/img-combo/cb4.jpg" />
+
+                      <div class="product-card">
+                        <div class="product-title">
+                          <h3 title="Combo 4">
+                            Combo 4
+                          </h3>
+                        </div>
+                        <div class="product-block">
+                          <div class="product-card-p">
+                            <p>Trà sữa socola, trân châu đen, Flan trứng</p>
+                          </div>
+                        </div>
+                        <div class="product-price">
+                          <span>49K</span>
+                        </div>
+                      </div>
+                    </a>
+                  </figure>
+
+                  <figure class="image-item left2">
+                    <a href="#">
+                      <img src="./images/img-combo/cb7.jpg" obj.alt="obj.alt" />
+
+                      <div class="site-card product-card">
+                        <div class="product-title">
+                          <h3 title="Combo 7">
+                            Combo 7
+                          </h3>
+                        </div>
+                        <div class="product-block">
+                          <div class="product-card-p">
+                            <p>
+                              Trà sữa matcha,&nbsp;trân châu đen,&nbsp;Flan
+                              trứng
+                            </p>
+                          </div>
+                        </div>
+                        <div class="product-price">
+                          <span>49K</span>
+                        </div>
+                      </div>
+                    </a>
+                  </figure>
+
+                  <figure class="image-item">
+                    <a href="#">
+                      <img src="./images/img-combo/cb8.jpg" />
+
+                      <div class="site-card product-card">
+                        <div class="product-title">
+                          <h3 title="Combo 8">
+                            Combo 8
+                          </h3>
+                        </div>
+                        <div class="product-block">
+                          <div class="product-card-p">
+                            <p>Trà sữa yến mạch,&nbsp;trân châu đen</p>
+                          </div>
+                        </div>
+                        <div class="product-price">
+                          <span>52K</span>
+                        </div>
+                      </div>
+                    </a>
+                  </figure>
+                </div>
+              </div>
+            </div>
+
+            <!-- Ta tua -->
+            <div id="tab__content--3" class="tab__content">
+              <div class="col-pc-6 col-mb-6">
+                <figure class="image-item left1">
+                  <a href="#">
+                    <img src="./images/img-tatua/ttbumba.jpg" />
+
+                    <div class="product-card">
+                      <div class="product-title">
+                        <h3 title="Trà sữa bumba">
+                          Trà sữa bumba
+                        </h3>
+                      </div>
+                      <div class="product-block">
+                        <div class="product-card-p">
+                          <p>Bumba Milk Tea</p>
+                        </div>
+                      </div>
+                      <div class="product-price">
+                        <span>32K</span>
+                      </div>
+                    </div>
+                  </a>
+                </figure>
+
+                <figure class="image-item">
+                  <a href="#">
+                    <img src="./images/img-tatua/ttnhai.jpg" />
+
+                    <div class="product-card">
+                      <div class="product-title">
+                        <h3 title="Trà sữa nhài">
+                          Trà sữa nhài
+                        </h3>
+                      </div>
+                      <div class="product-block">
+                        <div class="product-card-p">
+                          <p>Jasmine Milk Tea</p>
+                        </div>
+                      </div>
+                      <div class="product-price">
+                        <span>32K</span>
+                      </div>
+                    </div>
+                  </a>
+                </figure>
+
+                <figure class="image-item left1">
+                  <a href="#">
+                    <img src="./images/img-tatua/ttcafe.jpg" />
+
+                    <div class="site-card product-card">
+                      <div class="product-title">
+                        <h3 title="Trà sữa cafe">
+                          Trà sữa cafe
+                        </h3>
+                      </div>
+                      <div class="product-block">
+                        <div class="product-card-p">
+                          <p>Coffee Milk Tea</p>
+                        </div>
+                      </div>
+                      <div class="product-price">
+                        <span>32K</span>
+                      </div>
+                    </div>
+                  </a>
+                </figure>
+
+                <figure class="image-item">
+                  <a href="#">
+                    <img src="./images/img-tatua/ttmacha.jpg" />
+                    <div class="site-card product-card">
+                      <div class="product-title">
+                        <h3 title="Trà sữa matcha">
+                          Trà sữa matcha
+                        </h3>
+                      </div>
+                      <div class="product-block">
+                        <div class="product-card-p">
+                          <p>Matcha Milk Tea</p>
+                        </div>
+                      </div>
+                      <div class="product-price">
+                        <span>38K</span>
+                      </div>
+                    </div>
+                  </a>
+                </figure>
+              </div>
+
+              <div class="col-pc-6 col-mb-6">
+                <figure class="image-item left2">
+                  <a href="#">
+                    <img src="./images/img-tatua/ttolong.jpg" />
+
+                    <div class="product-card">
+                      <div class="product-title">
+                        <h3 title="Trà sữa oolong">
+                          Trà sữa oolong
+                        </h3>
+                      </div>
+                      <div class="product-block">
+                        <div class="product-card-p">
+                          <p>Oolong Milk Tea</p>
+                        </div>
+                      </div>
+                      <div class="product-price">
+                        <span>32K</span>
+                      </div>
+                    </div>
+                  </a>
+                </figure>
+
+                <figure class="image-item">
+                  <a href="#">
+                    <img src="./images/img-tatua/tthaithan.jpg" />
+
+                    <div class="product-card">
+                      <div class="product-title">
+                        <h3 title="Trà sữa hải thần">
+                          Trà sữa hải thần
+                        </h3>
+                      </div>
+                      <div class="product-block">
+                        <div class="product-card-p">
+                          <p>Hai Than Milk Tea</p>
+                        </div>
+                      </div>
+                      <div class="product-price">
+                        <span>32K</span>
+                      </div>
+                    </div>
+                  </a>
+                </figure>
+
+                <figure class="image-item left2">
+                  <a href="#">
+                    <img src="./images/img-tatua/ttsocola.jpg" />
+
+                    <div class="site-card product-card">
+                      <div class="product-title">
+                        <h3 title="Trà sữa socola">
+                          Trà sữa socola
+                        </h3>
+                      </div>
+                      <div class="product-block">
+                        <div class="product-card-p">
+                          <p>Socola Milk Tea</p>
+                        </div>
+                      </div>
+                      <div class="product-price">
+                        <span>38K</span>
+                      </div>
+                    </div>
+                  </a>
+                </figure>
+
+                <figure class="image-item">
+                  <a href="#">
+                    <img src="./images/img-tatua/ttkhoaimon.jpg" />
+
+                    <div class="site-card product-card">
+                      <div class="product-title">
+                        <h3 title="Trà sữa khoai môn">
+                          Trà sữa khoai môn
+                        </h3>
+                      </div>
+                      <div class="product-block">
+                        <div class="product-card-p">
+                          <p>Taro Milk Tea</p>
+                        </div>
+                      </div>
+                      <div class="product-price">
+                        <span>38K</span>
+                      </div>
+                    </div>
+                  </a>
+                </figure>
+              </div>
+            </div>
+
+            <!-- Tra nguyen vi -->
+            <div id="tab__content--4" class="tab__content">
+              <div class="row">
+                <div class="col-pc-6 col-mb-6">
+                  <figure class="image-item left1">
+                    <a href="#">
+                      <img src="./images/img-nguyenvi/olongbd.jpg" />
+
+                      <div class="product-card">
+                        <div class="product-title">
+                          <h3 title="Trà oolong bí đao">
+                            Trà oolong bí đao
+                          </h3>
+                        </div>
+                        <div class="product-block">
+                          <div class="product-card-p">
+                            <p>Winter Melon Oolong Tea</p>
+                          </div>
+                        </div>
+                        <div class="product-price">
+                          <span>29K</span>
+                        </div>
+                      </div>
+                    </a>
+                  </figure>
+
+                  <figure class="image-item">
+                    <a href="#">
+                      <img src="./images/img-nguyenvi/dua.jpg" />
+
+                      <div class="product-card">
+                        <div class="product-title">
+                          <h3 title="Trà thanh nhiệt dứa">
+                            Trà thanh nhiệt dứa
+                          </h3>
+                        </div>
+                        <div class="product-block">
+                          <div class="product-card-p">
+                            <p>Pineapple Tea</p>
+                          </div>
+                        </div>
+                        <div class="product-price">
+                          <span>34K</span>
+                        </div>
+                      </div>
+                    </a>
+                  </figure>
+
+                  <figure class="image-item left1">
+                    <a href="#">
+                      <img src="./images/img-nguyenvi/dau.jpg" />
+
+                      <div class="site-card product-card">
+                        <div class="product-title">
+                          <h3 title="Trà dâu">
+                            Trà dâu
+                          </h3>
+                        </div>
+                        <div class="product-block">
+                          <div class="product-card-p">
+                            <p>Strawberry Tea</p>
+                          </div>
+                        </div>
+                        <div class="product-price">
+                          <span>36K</span>
+                        </div>
+                      </div>
+                    </a>
+                  </figure>
+
+                  <figure class="image-item">
+                    <a href="#">
+                      <img src="./images/img-nguyenvi/quat.jpg" />
+
+                      <div class="site-card product-card">
+                        <div class="product-title">
+                          <h3 title="Trà việt quất">
+                            Trà việt quất
+                          </h3>
+                        </div>
+                        <div class="product-block">
+                          <div class="product-card-p">
+                            <p>Blueberry Tea</p>
+                          </div>
+                        </div>
+                        <div class="product-price">
+                          <span>36K</span>
+                        </div>
+                      </div>
+                    </a>
+                  </figure>
+                </div>
+
+                <div class="col-pc-6 col-mb-6">
+                  <figure class="image-item left2">
+                    <a href="#">
+                      <img src="./images/img-nguyenvi/oihong.jpg" />
+
+                      <div class="product-card">
+                        <div class="product-title">
+                          <h3 title="Trà ổi hồng">
+                            Trà ổi hồng
+                          </h3>
+                        </div>
+                        <div class="product-block">
+                          <div class="product-card-p">
+                            <p>Pink Guava Tea</p>
+                          </div>
+                        </div>
+                        <div class="product-price">
+                          <span>34K</span>
+                        </div>
+                      </div>
+                    </a>
+                  </figure>
+
+                  <figure class="image-item">
+                    <a href="#">
+                      <img src="./images/img-nguyenvi/chanh.jpg" />
+
+                      <div class="site-card product-card">
+                        <div class="product-title">
+                          <h3 title="Trà chanh sả">
+                            Trà chanh sả
+                          </h3>
+                        </div>
+                        <div class="product-block">
+                          <div class="product-card-p">
+                            <p>Lemongrass Tea</p>
+                          </div>
+                        </div>
+                        <div class="product-price">
+                          <span>34K</span>
+                        </div>
+                      </div>
+                    </a>
+                  </figure>
+
+                  <figure class="image-item left2">
+                    <a href="#">
+                      <img src="./images/img-nguyenvi/dao.jpg" />
+
+                      <div class="site-card product-card">
+                        <div class="product-title">
+                          <h3 title="Trà đào">
+                            Trà đào
+                          </h3>
+                        </div>
+                        <div class="product-block">
+                          <div class="product-card-p">
+                            <p>Peach Tea</p>
+                          </div>
+                        </div>
+                        <div class="product-price">
+                          <span>40K</span>
+                        </div>
+                      </div>
+                    </a>
+                  </figure>
+
+                  <figure class="image-item">
+                    <a href="#">
+                      <img src="./images/img-nguyenvi/vai.jpg" />
+
+                      <div class="site-card product-card">
+                        <div class="product-title">
+                          <h3 title="Trà vải">
+                            Trà vải
+                          </h3>
+                        </div>
+                        <div class="product-block">
+                          <div class="product-card-p">
+                            <p>Lychee Tea</p>
+                          </div>
+                        </div>
+                        <div class="product-price">
+                          <span>40K</span>
+                        </div>
+                      </div>
+                    </a>
+                  </figure>
+                </div>
+              </div>
+            </div>
+
+            <!-- machiato -->
+            <div id="tab__content--5" class="tab__content">
+              <div class="row">
+                <div class="col-pc-6 col-mb-6">
+                  <figure class="image-item left1">
+                    <a href="#">
+                      <img src="./images/img-machiato/maolong.jpg" />
+
+                      <div class="product-card">
+                        <div class="product-title">
+                          <h3 title="Trà oolong bí đao macchiato">
+                            Trà oolong bí đao macchiato
+                          </h3>
+                        </div>
+                        <div class="product-block">
+                          <div class="product-card-p">
+                            <p>Winter Melon Oolong Tea Macchiato</p>
+                          </div>
+                        </div>
+                        <div class="product-price">
+                          <span>38K</span>
+                        </div>
+                      </div>
+                    </a>
+                  </figure>
+
+                  <figure class="image-item">
+                    <a href="#">
+                      <img src="./images/img-machiato/masua.jpg" />
+
+                      <div class="site-card product-card">
+                        <div class="product-title">
+                          <h3 title="Trà sữa bumba macchiato">
+                            Trà sữa bumba macchiato
+                          </h3>
+                        </div>
+                        <div class="product-block">
+                          <div class="product-card-p">
+                            <p>Bumba Milk Tea Macchiato</p>
+                          </div>
+                        </div>
+                        <div class="product-price">
+                          <span>40K</span>
+                        </div>
+                      </div>
+                    </a>
+                  </figure>
+                </div>
+
+                <div class="col-pc-6 col-mb-6">
+                  <figure class="image-item left2">
+                    <a href="#">
+                      <img src="./images/img-machiato/mama.jpg" />
+
+                      <div class="site-card product-card">
+                        <div class="product-title">
+                          <h3 title="Trà sữa oolong macchiato">
+                            Trà sữa oolong macchiato
+                          </h3>
+                        </div>
+                        <div class="product-block">
+                          <div class="product-card-p">
+                            <p>Oolong Milk Tea Macchiato</p>
+                          </div>
+                        </div>
+                        <div class="product-price">
+                          <span>40K</span>
+                        </div>
+                      </div>
+                    </a>
+                  </figure>
+                </div>
+              </div>
+            </div>
+
+            <!-- Soda -->
+            <div id="tab__content--6" class="tab__content">
+              <div class="row">
+                <div class="col-pc-6 col-mb-6">
+                  <figure class="image-item left1">
+                    <a href="#">
+                      <img src="./images/img-soda/soda1.jpg" />
+
+                      <div class="site-card product-card">
+                        <div class="product-title">
+                          <h3 title="Soda dứa">
+                            Soda dứa
+                          </h3>
+                        </div>
+                        <div class="product-block">
+                          <div class="product-card-p">
+                            <p>Pineapple Soda</p>
+                          </div>
+                        </div>
+                        <div class="product-price">
+                          <span>38K</span>
+                        </div>
+                      </div>
+                    </a>
+                  </figure>
+
+                  <figure class="image-item">
+                    <a href="#">
+                      <img src="./images/img-soda/soda2.jpg" />
+
+                      <div class="site-card product-card">
+                        <div class="product-title">
+                          <h3 title="Soda ổi hồng">
+                            Soda ổi hồng
+                          </h3>
+                        </div>
+                        <div class="product-block">
+                          <div class="product-card-p">
+                            <p>Pink Guava Soda</p>
+                          </div>
+                        </div>
+                        <div class="product-price">
+                          <span>38K</span>
+                        </div>
+                      </div>
+                    </a>
+                  </figure>
+                </div>
+
+                <div class="col-pc-6 col-mb-6">
+                  <figure class="image-item left2">
+                    <a href="#">
+                      <img
+                        src="./images/img-soda/soda3.jpg"
+                        obj.alt="obj.alt"
+                      />
+
+                      <div class="site-card product-card">
+                        <div class="product-title">
+                          <h3 title="Soda việt quất">
+                            Soda việt quất
+                          </h3>
+                        </div>
+                        <div class="product-block">
+                          <div class="product-card-p">
+                            <p>Blueberry Soda</p>
+                          </div>
+                        </div>
+                        <div class="product-price">
+                          <span>38K</span>
+                        </div>
+                      </div>
+                    </a>
+                  </figure>
+
+                  <figure class="image-item">
+                    <a href="#">
+                      <img src="./images/img-soda/soda4.jpg" />
+
+                      <div class="site-card product-card">
+                        <div class="product-title">
+                          <h3 title="Soda chanh">
+                            Soda chanh
+                          </h3>
+                        </div>
+                        <div class="product-block">
+                          <div class="product-card-p">
+                            <p>Lemon Soda</p>
+                          </div>
+                        </div>
+                        <div class="product-price">
+                          <span>38K</span>
+                        </div>
+                      </div>
+                    </a>
+                  </figure>
+                </div>
+              </div>
+            </div>
+
+            <!-- Topping -->
+            <div id="tab__content--7" class="tab__content">
+              <div class="row">
+                <div class="col-pc-6 col-mb-6">
+                  <figure class="image-item left1">
+                    <a href="#">
+                      <img src="./images/img-topping/top1.jpg" />
+
+                      <div class="site-card product-card">
+                        <div class="product-title">
+                          <h3 title="Trân châu đen">
+                            Trân châu đen
+                          </h3>
+                        </div>
+                        <div class="product-block">
+                          <div class="product-card-p">
+                            <p>Black Bubble</p>
+                          </div>
+                        </div>
+                        <div class="product-price">
+                          <span>8K</span>
+                        </div>
+                      </div>
+                    </a>
+                  </figure>
+
+                  <figure class="image-item">
+                    <a href="#">
+                      <img src="./images/img-topping/top2.jpg" />
+
+                      <div class="site-card product-card">
+                        <div class="product-title">
+                          <h3 title="Flan trứng">
+                            Flan trứng
+                          </h3>
+                        </div>
+                        <div class="product-block">
+                          <div class="product-card-p">
+                            <p>Egg Flan</p>
+                          </div>
+                        </div>
+                        <div class="product-price">
+                          <span>8K</span>
+                        </div>
+                      </div>
+                    </a>
+                  </figure>
+
+                  <figure class="image-item left1">
+                    <a href="#">
+                      <img src="./images/img-topping/top5.jpg" />
+
+                      <div class="product-card">
+                        <div class="product-title">
+                          <h3 title="Thạch 3Q">
+                            Thạch 3Q
+                          </h3>
+                        </div>
+                        <div class="product-block">
+                          <div class="product-card-p">
+                            <p>3Q Jelly</p>
+                          </div>
+                        </div>
+                        <div class="product-price">
+                          <span>12K</span>
+                        </div>
+                      </div>
+                    </a>
+                  </figure>
+
+                  <figure class="image-item">
+                    <a href="#">
+                      <img src="./images/img-topping/top6.jpg" />
+
+                      <div class="site-card product-card">
+                        <div class="product-title">
+                          <h3 title="Foam macchiato">
+                            Foam macchiato
+                          </h3>
+                        </div>
+                        <div class="product-block">
+                          <div class="product-card-p">
+                            <p>Foam Macchiato</p>
+                          </div>
+                        </div>
+                        <div class="product-price">
+                          <span>12K</span>
+                        </div>
+                      </div>
+                    </a>
+                  </figure>
+                </div>
+
+                <div class="col-pc-6 col-mb-6">
+                  <figure class="image-item left2">
+                    <a href="#">
+                      <img src="./images/img-topping/top3.jpg" />
+
+                      <div class="site-card product-card">
+                        <div class="product-title">
+                          <h3 title="Nha đam">
+                            Nha đam
+                          </h3>
+                        </div>
+                        <div class="product-block">
+                          <div class="product-card-p">
+                            <p>Aloe Vera Jelly</p>
+                          </div>
+                        </div>
+                        <div class="product-price">
+                          <span>10K</span>
+                        </div>
+                      </div>
+                    </a>
+                  </figure>
+
+                  <figure class="image-item">
+                    <a href="#">
+                      <img src="./images/img-topping/top4.jpg" />
+
+                      <div class="product-card">
+                        <div class="product-title">
+                          <h3 title="Sương sáo">
+                            Sương sáo
+                          </h3>
+                        </div>
+                        <div class="product-block">
+                          <div class="product-card-p">
+                            <p>Grass Jelly</p>
+                          </div>
+                        </div>
+                        <div class="product-price">
+                          <span>10K</span>
+                        </div>
+                      </div>
+                    </a>
+                  </figure>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </article>
+    </div>
+   
+
+    <!-- Footer responsive -->
+    <div class="footer-site">
+      <div class="row">
+        <div class="col-pc-6 col-mb-12">
+          <div class="footer-card-l">
+            <!-- Footer left-->
+            <div class="footer-logo">
+              <img src="./images/logo-footer.png" alt="foot-logo" />
+            </div>
+
+            <div class="precept">
+              <p>
+                Với châm ngôn tuyệt đối không sử dụng nguyên liệu không rõ nguồn
+                gốc xuất xứ, trà sữa Bumba tự hào mang lại cho khách hàng những
+                sản phẩm, chất lượng tốt nhất
+              </p>
+            </div>
+
+            <div class="footer-social">
+              <a href="#" target="_blank"><i class="fab fa-facebook-f"></i></a>
+              <a href="#" target="_blank"><i class="fab fa-instagram"></i></a>
+              <a href="#" target="_blank"><i class="fab fa-youtube"></i></a>
+            </div>
+          </div>
+        </div>
+        <!--Footer right-->
+        <div class="col-pc-6 col-mb-12">
+          <div class="footer-card-r">
+            <h3>Liên hệ</h3>
+            <p class="fw-600">Công ty CP TM DV Chào Ngày Mới</p>
+            <p>
+              Tầng 3 - Tòa nhà Green Bee - 684/28A Trần Hưng Đạo, Phường 2, Quận
+              5, TP. Hồ Chí Minh
+            </p>
+
+            <p>Email: franchise@trasuabumba.com</p>
+            <p>Hotline: 0975 277 017</p>
+          </div>
+        </div>
+
+        <div class="col-pc-12 col-mb-12">
+          <div class="copy-right">
+            <p>
+              Copyright © 2020 Bumba. Developed by
+              <a href="https://ions.vn" target="_blank">IONS</a>
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- end footer -->
+
+    <!-- Media button -->
+    <div class="media-button">
+      <a href="#" class="fas fa-phone media-items"></a>
+      <a href="#" class="fas fa-envelope media-items"></a>
+      <a href="#" class="fab fa-facebook-messenger fa-3x mess"></a>
+    </div>
+
+    
+
+  
+
+    <!-- end media button -->
+    <!--SCRIPT-->
+
+    <!--width menu mobile-->
+    <script>
+      function openNav() {
+        document.getElementById("mySidenav").style.width = "100%";
+      }
+
+      function closeNav() {
+        document.getElementById("mySidenav").style.width = "0";
+      }
+    </script>
+
+    <!--Change name to responsive for mobile-->
+    <script>
+      function myFunction() {
+        var x = document.getElementById("my-header-mb");
+        if (x.className === "header-mb-container") {
+          x.className += " responsive";
+        } else {
+          x.className = "header-mb-container";
+        }
+      }
+    </script>
+
+    <!-- sroll logo size-->
+    <script>
+      window.onscroll = function () {
+        if (
+          document.body.scrollTop > 10 ||
+          document.documentElement.scrollTop > 10
+        ) {
+          document.getElementById("menu-site").style.padding = "0.8rem";
+          document.getElementById("logo").style.width = "6rem";
+        } else {
+          document.getElementById("menu-site").style.padding = "1.2rem";
+          document.getElementById("logo").style.width = "9rem";
+        }
+      };
+    </script>
+    <script src="./js/handle_product.js"></script>
+  </body>
+</html>

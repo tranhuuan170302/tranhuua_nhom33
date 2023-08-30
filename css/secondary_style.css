@@ -1,0 +1,68 @@
+*{margin: 0; padding: 0;}
+img{vertical-align: middle; }
+*{box-sizing: border-box;}
+
+.secondary-slider{
+    width: 1100px;
+    margin: 100px auto auto;
+    background-color: white; 
+    padding: 50px 0;
+}
+.secondary-slide .bottom{
+    display: flex;
+}
+
+
+.top span{
+    color: #d19d41;
+    font-size: 60px;
+    opacity: 0.6;
+    position: relative;
+}
+span#btn-prev1{
+    position: absolute;
+    left: 14%;
+    cursor: pointer;
+}
+
+span#btn-next1{
+    position: absolute;
+    right: 14%;
+    cursor: pointer; 
+}
+.secondary-slide .slides {
+    display: flex; 
+    justify-content: space-between; 
+    width: 80%;
+    margin: auto;
+}
+.secondary-slide .slides .child-slide{
+    width: 30%; 
+    display: none;  
+    overflow: hidden;
+    border-radius: 35px;
+    box-shadow: 3px 3px 3px 3px rgb(221, 219, 219);
+}
+.secondary-slide .slides .child-slide img{
+    width: 100%; 
+    height: 300px;
+}
+.secondary-slide .slides .child-slide.active1{
+    display: block;
+}
+.secondary-slide .top ul{
+    list-style: none; 
+    text-align: center; 
+    margin-top: 30px;
+}
+.secondary-slide .top ul li{
+    height: 15px; width: 15px; 
+    border-radius: 100px; 
+    border: 2px solid gray; 
+    display: inline-block; 
+    margin: 0 5px; 
+    cursor: pointer;
+}
+.secondary-slide .top ul li.active_li{
+    background-color: #d19d41;
+}

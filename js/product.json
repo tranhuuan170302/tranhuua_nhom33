@@ -1,0 +1,51 @@
+[
+    {
+        "productName": "Combo1",
+        "category": "Topwear",
+        "price": "30",
+        "content": "Trà sữa Bumba, trân châu đen, nha đam",
+        "image": "img/iloveimg-resized/giày 1.png"
+    },
+    {
+        "productName": "Nha đam",
+        "category": "Bottomwear",
+        "price": "49",
+        "image": "img/iloveimg-resized/giày 1.png"
+    },
+    {
+        "productName": "Combo2",
+        "category": "Watch",
+        "price": "99",
+        "image": "img/iloveimg-resized/giày 1.png"
+    },
+    {
+        "productName": "Sương sáo",
+        "category": "Topwear",
+        "price": "29",
+        "image": "img/iloveimg-resized/giày 1.png"
+    },    
+    {
+        "productName": "Combo 5",
+        "category": "Jacket",
+        "price": "129",
+        "image": "img/iloveimg-resized/giày 1.png"
+    },
+    {
+        "productName": "Combo 3",
+        "category": "Bottomwear",
+        "price": "89",
+        "image": "img/iloveimg-resized/giày 1.png"
+    },
+    {
+        "productName": "Combo 6",
+        "category": "Jacket",
+        "price": "189",
+        "image": "img/iloveimg-resized/giày 1.png"
+    },
+    {
+        "productName": "Combo 4",
+        "category": "Bottomwear",
+        "price": "49",
+        "image": "img/iloveimg-resized/giày 1.png"
+    }
+]

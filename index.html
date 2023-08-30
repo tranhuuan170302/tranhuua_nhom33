@@ -1,0 +1,590 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/secondary_style.css">
+  <link rel="stylesheet" href="css/third_style.css">
+  <link rel="stylesheet" href="./css/normalize.css" />
+  <link rel="stylesheet" href="./css/grid.css" />
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
+    integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous" />
+
+  <link href="https://fonts.googleapis.com/css2?family=Quicksand&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="./css/stylehf.css" />
+  <link rel="stylesheet" href="./css/animate.css">
+  <script src="js/wow.min.js"></script>
+  <script>
+      new WOW().init();
+  </script>
+  <title>Bumba Ta Tua</title>
+</head>
+
+<body>
+  <!-- Header pc -->
+  <div id="header-container" class="hidden-mb">
+    <div id="menu-site">
+      <div class="menu-logo">
+        <a href="#">
+          <img id="logo" src="./images/logo.png" alt="logo" />
+        </a>
+      </div>
+
+      <div class="menu-tab">
+        <ul>
+          <li class=""><a href="./index.html" class="">Trang chủ</a></li>
+
+          <li class=""><a href="./gioithieu.html" class="">Giới thiệu</a></li>
+
+          <li class=""><a href="./nhuongquyen.html" class="">Nhượng quyền</a></li>
+
+          <li class=""><a href="./cuahang.html" class="">Cửa hàng</a></li>
+
+          <li class=""><a href="./sanpham.html" class="">Sản phẩm</a></li>
+
+          <li class=""><a href="./tintuc.html" class="">Tin tức</a></li>
+
+          <li class=""><a href="./tuyen-dung.html" class="">Tuyển dụng</a></li>
+
+          <li class=""><a href="./lien-he.html" class="">Liên hệ</a></li>
+        </ul>
+      </div>
+
+      <div class="menu-lang">
+        <a href="#" target="_blank"><i class="fab fa-facebook-f"></i></a>
+
+        <a href="#" target="_blank"><i class="fab fa-instagram"></i></a>
+
+        <a href="#" target="_blank"><i class="fab fa-youtube"></i></a>
+      </div>
+
+      <div class="avatar">
+        <a href="#">
+          <img class="icon_image" src="./images/avatar.png" alt="logo-mb" />
+        </a>
+      </div>
+    </div>
+  </div>
+  <!-- end header pc -->
+
+  <!-- Header mobile -->
+  <div class="header-mb-container" id="my-header-mb">
+    <div class="menu-mb">
+      <div id="mySidenav" class="sidenav">
+        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+        <a href="./index.html">Trang Chủ</a>
+        <a href="./gioithieu.html">Giới Thiệu</a>
+        <a href="./nhuongquyen.html">Nhượng Quyền</a>
+        <a href="./cuahang.html">Cửa Hàng</a>
+        <a href="./sanpham.html">Sản Phẩm</a>
+        <a href="./tintuc.html">Tin Tức</a>
+        <a href="./tuyen-dung.html">Tuyển Dụng</a>
+        <a href="./lien-he.html">Liên Hệ</a>
+      </div>
+
+      <span style="font-size: 30px; cursor: pointer;" onclick="openNav()">&#9776;</span>
+
+      <div class="logo-mb">
+        <a href="#">
+          <img src="./images/logo.png" alt="logo-mb" />
+        </a>
+      </div>
+    </div>
+  </div>
+  <!-- end header mobile -->
+  <!-- Content -->
+  <div id="content" class="row">
+    <!-- Primary-slider -->
+    <div class="slide-container">
+      <div class="primary-slider row">
+        <div class="khoi-slide">
+          <div class="cac-slide">
+            <div class="slide active"><img src="img/banner1.jpg"></div>
+            <div class="slide"><img src="img/banner2.jpg"></div>
+            <div class="slide"><img src="img/banner3.jpg"></div>
+            <div class="slide"><img src="img/banner4.jpg"></div>
+            <div class="slide"><img src="img/banner5.jpg"></div>
+          </div>
+        </div>
+        <div class="nut-slide">
+          <span id="btn-prev"><i class="fas fa-chevron-left"></i></span>
+          <span id="btn-next"><i class="fas fa-chevron-right"></i></span>
+          <ul>
+            <li class="active-nut">1</li>
+            <li>2</li>
+            <li>3</li>
+            <li>4</li>
+            <li>5</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+
+    <!-- end Primary-slider -->
+    <div id="margin" class="row home-row">
+      <div class="container">
+        <div class="col-pc-6 home-card">
+          <div class="home-card-info wow" style="animation-duration: 1s; animation-name: fadeInLeft;">
+            <h6>Bumba 소개</h6>
+            <h2>Về Bumba</h2>
+            <p>Bumba là thương hiệu trà sữa có nguồn&nbsp;gốc&nbsp;Việt Nam. Nguyên vật liệu được kiểm duyệt và nhập
+              khẩu
+              từ Singapore và Đài Loan. Là thương hiệu đại diện cho sản phẩm chất lượng và giá thành hợp lí.</p>
+            <div class="home-card-btn">
+              <a href="./gioithieu.html">Xem thêm</a>
+            </div>
+          </div>
+
+        </div>
+        <div class="col-pc-6 home-card">
+          <div class="home-intro-thumb wow"
+            style="visibility: visible; animation-duration: 2.5s; animation-name: fadeInRight;">
+            <img src="./img/tra-sua-bumba-gioi-thieu.jpg" class="img-responsive" alt="Về Bumba">
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="row home-row">
+      <div class="container">
+        <div class="col-pc-6 home-card">
+          <div class="home-intro-thumb wow"
+            style="visibility: visible; animation-duration: 2.5s; animation-name: fadeInLeft;">
+            <img src="./img/nhuong-quyen-thuong-hieu-bambu.jpg" class="img-responsive" alt="Về Bumba">
+          </div>
+        </div>
+        <div class="col-pc-6 home-card">
+          <div class="home-card-info wow" style="animation-duration: 1s; animation-name: fadeInRight;">
+            <h6>프랜차이즈</h6>
+            <h2>Nhượng quyền</h2>
+            <p>Chiến lược kinh doanh bài bản, quy trình quản lí chuyên nghiệp, hạng mục đầu tư rõ ràng. Bumba luôn chú trọng chủ trương đẩy mạnh phát triển quy mô chuỗi cửa hàng, dự kiến lên đến 150 cửa hàng trong năm 2020</p>
+            <div class="home-card-btn">
+              <a href="./nhuongquyen.html">Xem thêm</a>
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+    </div>
+
+    <!-- video -->
+    <div class="home-video">
+      <div class="row home-vid-container">        
+        <div class="story col-pc-5 col-mb-12">
+            <h2>Bumba Story</h2>
+            <h6 > 안녕하세요, 제 이름은 Bum입니다. 만나서 반가워요</h6>
+            <p >Chào cậu tớ tên là Bum rất vui được gặp cậu</p>
+            <div class="btn-seemore">
+              <a href="#">Xem thêm</a>
+          </div>
+      </div>
+
+          <div class="video col-pc-6 col-mb-12">
+            <iframe src="https://www.youtube.com/embed/aLyJhovf19M" ></iframe>
+          </div>
+    </div>
+  </div>
+
+    <!-- end video -->
+
+    <!-- Secondary-slider -->
+    <div class="secondary-slider">
+      <div class="secondary-slide">
+        <p class="sanpham-gioithieu">제품</p>
+        <h3 class="sanpham-noibat">Sản Phẩm Nổi Bật</h3>
+        <br>
+        <p class="sanpham-gioithieu">Chào các bạn đến với thiên đường vị giác của Bumba, Menu Bumba rất đa dạng món uống, dùng để đáp ứng khẩu vị "ưa chua chuộng béo" của bạn. Order và thưởng thức ngay nhé</p>
+        <div class="top">
+
+          <span id="btn-prev1" class="control"><i class="fas fa-chevron-left"></i></span>
+          <span id="btn-next1" class="control"><i class="fas fa-chevron-right"></i></span>
+
+          <ul>
+            <li class="item-select active_li"></li>
+            <li class="item-select"></li>
+            <li class="item-select"></li>
+          </ul>
+        </div>
+        <div class="bottom">
+          <div class="slides">
+            <div class="child-slide active1">
+              <img src="img/pic1.jpg">
+            </div>
+            <div class="child-slide active1">
+              <img src="img/pic2.jpg">
+            </div>
+            <div class="child-slide active1">
+              <img src="img/pic3.jpg">
+            </div>
+            <div class="child-slide">
+              <img src="img/pic4.jpg">
+            </div>
+            <div class="child-slide">
+              <img src="img/pic5.jpg">
+            </div>
+            <div class="child-slide">
+              <img src="img/pic6.jpg">
+            </div>
+            <div class="child-slide">
+              <img src="img/pic7.jpg">
+            </div>
+            <div class="child-slide">
+              <img src="img/pic8.jpg">
+            </div>
+            <div class="child-slide">
+              <img src="img/pic9.jpg">
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- end Secondary-slider -->
+
+    <!-- Third-slider -->
+    <div class="tintuc-khuyenmai">
+      <p class="sanpham-gioithieu">뉴스-프로모션</p>
+    <h3 class="sanpham-noibat">Tin Tức - Khuyến Mại</h3>
+    <div class="third-slider row">
+      <div class="third-slide">
+        <div class="topp">
+          <div class="cac-slides">
+
+            <div class="child active2">
+              <div class="img ">
+                <img src="img/anh1.jpg" alt="">
+              </div>
+              <div class="content">
+                <span><small>Tháng 06 01,2020</small><span>
+                    <h3>MỪNG TẾT THIẾU NHI</h3>
+                    <a href="tintuc.html"><i class="fas fa-arrow-right"></i></a>
+              </div>
+            </div>
+
+            <div class="child active2">
+              <div class="img ">
+                <img src="img/anh3.jpg" alt="">
+              </div>
+              <div class="content">
+                <span><small>Tháng 25 05,2020</small><span>
+                    <h3>NẠP VITAMIN SAU MỘT NGÀY DÀI</h3>
+                    <a href="tintuc.html"><i class="fas fa-arrow-right"></i></a>
+              </div>
+            </div>
+
+            <div class="child active2">
+              <div class="img ">
+                <img src="img/anh4.jpg" alt="">
+              </div>
+              <div class="content">
+                <span><small>Tháng 06 05,2020</small><span>
+                    <h3>HOẠT ĐỘNG VÌ THIÊN NHIÊN</h3>
+                    <a href="tintuc.html"><i class="fas fa-arrow-right"></i></a>
+              </div>
+            </div>
+
+            <div class="child active2">
+              <div class="img ">
+                <img src="img/anh2.jpg" alt="">
+              </div>
+              <div class="content">
+                <span><small>Tháng 06 01,2020</small><span>
+                    <h3>FREE TOPPING</h3>
+                    <a href="tintuc.html"><i class="fas fa-arrow-right"></i></a>
+              </div>
+            </div>
+
+            <div class="child">
+              <div class="img ">
+                <img src="img/anh1.jpg" alt="">
+              </div>
+              <div class="content">
+                <span><small>Tháng 06 01,2020</small><span>
+                    <h3>MỪNG TẾT THIẾU NHI</h3>
+                    <a href="tintuc.html"><i class="fas fa-arrow-right"></i></a>
+              </div>
+            </div>
+
+            <div class="child">
+              <div class="img ">
+                <img src="img/anh3.jpg" alt="">
+              </div>
+              <div class="content">
+                <span><small>Tháng 25 05,2020</small><span>
+                    <h3>NẠP VITAMIN SAU MỘT NGÀY DÀI</h3>
+                    <a href="tintuc.html"><i class="fas fa-arrow-right"></i></a>
+              </div>
+            </div>
+
+            <div class="child">
+              <div class="img ">
+                <img src="img/anh4.jpg" alt="">
+              </div>
+              <div class="content">
+                <span><small>Tháng 06 05,2020</small><span>
+                    <h3>HOẠT ĐỘNG VÌ THIÊN NHIÊN</h3>
+                    <a href="tintuc.html"><i class="fas fa-arrow-right"></i></a>
+              </div>
+            </div>
+
+            <div class="child">
+              <div class="img ">
+                <img src="img/anh2.jpg" alt="">
+              </div>
+              <div class="content">
+                <span><small>Tháng 06 01,2020</small><span>
+                    <h3>FREE TOPPING</h3>
+                    <a href="tintuc.html"><i class="fas fa-arrow-right"></i></a>
+              </div>
+            </div>
+            <div class="child">
+              <div class="img ">
+                <img src="img/anh1.jpg" alt="">
+              </div>
+              <div class="content">
+                <span><small>Tháng 06 01,2020</small><span>
+                    <h3>MỪNG TẾT THIẾU NHI</h3>
+                    <a href="tintuc.html"><i class="fas fa-arrow-right"></i></a>
+              </div>
+            </div>
+
+            <div class="child">
+              <div class="img ">
+                <img src="img/anh3.jpg" alt="">
+              </div>
+              <div class="content">
+                <span><small>Tháng 25 05,2020</small><span>
+                    <h3>NẠP VITAMIN SAU MỘT NGÀY DÀI</h3>
+                    <a href="tintuc.html"><i class="fas fa-arrow-right"></i></a>
+              </div>
+            </div>
+
+            <div class="child">
+              <div class="img ">
+                <img src="img/anh4.jpg" alt="">
+              </div>
+              <div class="content">
+                <span><small>Tháng 06 05,2020</small><span>
+                    <h3>HOẠT ĐỘNG VÌ THIÊN NHIÊN</h3>
+                    <a href="tintuc.html"><i class="fas fa-arrow-right"></i></a>
+              </div>
+            </div>
+
+            <div class="child">
+              <div class="img ">
+                <img src="img/anh2.jpg" alt="">
+              </div>
+              <div class="content">
+                <span><small>Tháng 06 01,2020</small><span>
+                    <h3>FREE TOPPING</h3>
+                    <a href="tintuc.html"><i class="fas fa-arrow-right"></i></a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="bottomm">
+          <div id="btn-prev2" class="control"><i class="fas fa-chevron-left"></i></div>
+          <div id="btn-next2" class="control"><i class="fas fa-chevron-right"></i></div>
+        </div>
+      </div>
+    </div>
+    <!-- end Third-slider -->
+
+    <!-- .Address -->
+    <div class="home-store">
+      <div class="home-container">
+        <div class="home-intro-row">
+          <div class="card">
+            <div class="site-card home-store-card " >
+              <h6 class="white-cl"> 매장 주소</h6>
+              <h2 class="white-cl">Địa chỉ cửa hàng</h2>
+              <p class="white-cl">Vui lòng chọn khu vực bạn muốn tìm kiếm, chúng tôi sẽ hiển thị danh sách cửa hàng phù hợp nhất</p>
+
+              <div class=" home-store-form">
+                <form action="./cuahang.html" >
+                  <div class="form-group home-store-select">
+                    <select class="form-control">
+                      <option value="0"> -- Select One --</option>
+                      <option value="1">TP. Hồ Chí Minh</option>
+                      <option value="2">Hà Nội</option>
+                      <option value="5">Bạc Liêu</option>
+                      <option value="7">Bình Dương</option>
+                      <option value="8">Đồng Nai</option>
+                      <option value="11">Tây Ninh</option>
+                      <option value="12">Vĩnh Long</option>
+                      <option value="16">Hải Phòng</option>
+                      <option value="19">Quảng Ninh</option>
+                      <option value="20">Thái Bình</option>
+                      <option value="21">Thái Nguyên</option>
+                      <option value="26">Đà Nẵng</option>
+                      <option value="37">Phú Yên</option>
+                      <option value="40">Quảng Ngãi</option>
+                      <option value="41">Thanh Hóa</option>
+                      <option value="43">Cà Mau</option>
+                    </select>
+                  </div>
+                  <div class="form-group">
+
+                    <button type="submit" class="btn btn-primary site-btn">Tìm cửa hàng</button>
+                  </div>
+
+                </form>
+              </div>
+            </div>
+
+          </div>
+          <div class="col-lg-4 map">
+            <div class="home-store-thumb fadeInRight wow animated" data-wow-duration="2.5s" style="visibility: visible; animation-duration: 2.5s; animation-name: fadeInRight;">
+              <img src="./images/ban-do.jpg" class="img-responsive" alt="Cửa hàng">
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="home-gallely">
+      <div class="container-gallely">
+        <div class="row">
+          <div class="col-pc-12 col-mb-12 text">
+            <h2 style="color:#d4a146;
+            text-align: center;
+            font-size: 2rem;">#TraSuaBumba</h2>
+          </div>
+          <div class="piclast col-pc-12 col-mb-12">
+            <!-- <img src="./images/pic-last.jpg" alt=""> -->
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+
+  </div>
+
+  <!-- Footer responsive -->
+  <div class="footer-site">
+    <div class="row">
+      <div class="col-pc-6 col-mb-12">
+        <div class="footer-card-l">
+          <!-- Footer left-->
+          <div class="footer-logo">
+            <img src="./images/logo-footer.png" alt="foot-logo" />
+          </div>
+
+          <div class="precept">
+            <p>
+              Với châm ngôn tuyệt đối không sử dụng nguyên liệu không rõ nguồn
+              gốc xuất xứ, trà sữa Bumba tự hào mang lại cho khách hàng những
+              sản phẩm, chất lượng tốt nhất
+            </p>
+          </div>
+
+          <div class="footer-social">
+            <a href="#" target="_blank"><i class="fab fa-facebook-f"></i></a>
+            <a href="#" target="_blank"><i class="fab fa-instagram"></i></a>
+            <a href="#" target="_blank"><i class="fab fa-youtube"></i></a>
+          </div>
+        </div>
+      </div>
+      <!--Footer right-->
+      <div class="col-pc-6 col-mb-12">
+        <div class="footer-card-r">
+          <h3>Liên hệ</h3>
+          <p class="fw-600">Công ty CP TM DV Chào Ngày Mới</p>
+          <p>
+            Tầng 3 - Tòa nhà Green Bee - 684/28A Trần Hưng Đạo, Phường 2, Quận
+            5, TP. Hồ Chí Minh
+          </p>
+
+          <p>Email: franchise@trasuabumba.com</p>
+          <p>Hotline: 0975 277 017</p>
+        </div>
+      </div>
+
+      <div class="col-pc-12 col-mb-12">
+        <div class="copy-right">
+          <p>
+            Copyright © 2020 Bumba. Developed by
+            <a href="https://ions.vn" target="_blank">IONS</a>
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- end footer -->
+
+  <!-- Media button -->
+  <div class="media-button">
+    <a href="#" class="fas fa-phone media-items"></a>
+    <a href="#" class="fas fa-envelope media-items"></a>
+    <a href="#" class="fab fa-facebook-messenger fa-3x mess"></a>
+  </div>
+
+  <!-- end media button -->
+
+  <!--SCRIPT-->
+
+  <!--width menu mobile-->
+  <script>
+    function openNav() {
+      document.getElementById("mySidenav").style.width = "100%";
+    }
+
+    function closeNav() {
+      document.getElementById("mySidenav").style.width = "0";
+    }
+  </script>
+
+  <!--Change name to responsive for mobile-->
+  <script>
+    function myFunction() {
+      var x = document.getElementById("my-header-mb");
+      if (x.className === "header-mb-container") {
+        x.className += " responsive";
+      } else {
+        x.className = "header-mb-container";
+      }
+    }
+  </script>
+
+  <!-- sroll logo size-->
+  <script>
+    window.onscroll = function () {
+      if (
+        document.body.scrollTop > 10 ||
+        document.documentElement.scrollTop > 10
+      ) {
+        document.getElementById("menu-site").style.padding = "0.8rem";
+        document.getElementById("logo").style.width = "6rem";
+      } else {
+        document.getElementById("menu-site").style.padding = "1.2rem";
+        document.getElementById("logo").style.width = "9rem";
+      }
+    };
+  </script>
+  <script type="text/javascript" src="js/jquery-3.3.1.min.js"></script>
+  <script type="text/javascript" src="js/script.js"></script>
+  <script type="text/javascript" src="js/slide.js"></script>
+  <script language="javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
+    <script language="javascript">
+        $(window).resize(function(){
+            var width = $(window).width();
+            if (width <= 768){
+                $('.sanpham-noibat').addClass('responsive-sanpham-noibat');
+                $('.sanpham-gioithieu').addClass('responsive-sanpham-gioithieu');
+            }
+            else{
+                $('.sanpham-noibat').removeClass('responsive-sanpham-noibat');
+                $('.sanpham-gioithieu').removeClass('responsive-sanpham-gioithieu');
+            }
+        });
+        if($(window).width()<600)
+        {
+          $('.sanpham-noibat').addClass('responsive-sanpham-noibat');
+          $('.sanpham-gioithieu').addClass('responsive-sanpham-gioithieu');
+        }
+        </script>
+</body>
+
+</html>
